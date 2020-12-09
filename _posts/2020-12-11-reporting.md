@@ -80,10 +80,18 @@ This section will vary in length but generally this should be a one-paragraph su
 *On today's date, Detective Marco Marshall contacted the Digital Forensics Laboratory in regards to extracting data from an Android device that had been recovered from a crime scene. Detective Marshall is requesting a forensic examination to see what information by the suspect(s) may have been deleted and is requesting a full forensic examination and report for possible criminal charges.*
 
 ### Evidence
-
 This should be a table or listing of evidence containing the descriptive details of the physical evidence items submitted (hard drives, mobile devices, etc). A good evidence listing will include make, model, serial numbers, description, condition, hash values, custodian information, etc.  
 
 `EXAMPLE:`{:.success} ![Image](/images/reporting/PhysicalEvidenceExample.jpg)
+
+### Objectives
+this section outlines spcifically what are you being asked to do. You will include your hypothesis here.  IT is especially important to include if you were asked to perform a targeted investigation.  Also a good idea to include any specific search terms requested.
+
+### Steps Taken
+This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
+
+
+`EXAMPLE:`{:.success}
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
