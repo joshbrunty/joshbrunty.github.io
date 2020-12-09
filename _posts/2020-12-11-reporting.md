@@ -18,12 +18,26 @@ Each year I get asked a common question by students here at Marshall University 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me this ALWAYS starts with good planning & good case notes (or bench notes)...
 
 ## **Planning & Preparation**
-Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone. laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords to search for through the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. 
+Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone, laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords and suspect names to search for pertaining the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. Even when drafting the report, the detective was STILL giving me keywords. A process that should have taken weeks took months and hours of fruitless searches. The report took *forever* to draft because of the complexity of the searches and steps performed. At the end of this I was asking myself "What if better planning had been executed?" Later in my career I sought to answer these questions upon submission of the case. 
+
+There are dozens of models that describe the digital forensic process and how to approach this planning. A good read that approaches this process head-on is one written by Mark Pollitt titled [The key to forensic success: examination planning is a key determinant of efficient and effective digital forensics](https://doi.org/10.1016/B978-0-12-804526-8.00002-2). Mark breaks down examination planning into relatively simple one using the National Institute of Standards and Technology (NIST) SP 800-86, which describes the process in four (4) stages, defined as follows:
 
 ![Image](/images/reporting/examsteps.jpg)
 
+**Collection** Data are identified, labeled, recorded, and acquired from all of the possible sources of relevant data, using procedures that preserve the integrity of the
+data. Data should be collected in a timely manner to avoid the loss of dynamic data, such as a list of current network connections, and the data collected in cell phones, PDAs, and other battery-powered devices.
+
+**Examination** The data that are collected should be examined using a combination of automated and manual methods to assess and extract data of particular interest for
+the specific situation, while preserving the integrity of the data.
+
+**Analysis** The results of the examination should be analyzed, using welldocumented methods and techniques, to derive useful information that addresses the
+questions that were the impetus for the collection and examination.
+
+**Reporting** The results of the analysis should be reported. Items to be reported may include the following: a description of the actions employed; an explanation of
+how tools and procedures were selected; a determination of any other actions that should be performed, such as forensic examination of additional data sources, securing identified vulnerabilities, and improving existing security controls; and recommendations for improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. 
+
 ## **Case Notes/Bench Notes**
-Brett Shaver's (from [DFIR.training](https://dfir.training)) once said *"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."*
+*"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."* Brett Shaver's ([DFIR.training](https://dfir.training))
 
 **Case Notes (or Bench Notes)** are the detailed notes or contemporaneous records that an analyst takes when analyzing the case in whatever tool (or method) they are using. For some analysts and labs these are merely simple text files with items that will be a hard reminder of how to list these items in a report. For other analysts (and accredited digital forensics labs) these case notes can be rather detailed: screenshots, full, detailed steps of analysis, etc. I'll admit that early in my career I truly undervalued the importance of case notes and how they led to a better report. Now, with years of experience under my belt, the value of good notes is at the top of my list. I'm sure at this point you are asking *"What should my case notes look like?"* Well that depends on a variety of factors. First and foremost you have to figure out how all of this fits into the operational flow of your laboratory. Furthermore, you want to consider that these case notes should be bringing you to the ultimate goal of producing a better forensic report and not just adding additional burden upon your caseload.
 
