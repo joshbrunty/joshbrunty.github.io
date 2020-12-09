@@ -20,7 +20,7 @@ Without wasting any time, let's tackle the first, and most important, question o
 ## **Planning & Preparation**
 Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone. laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords to search for through the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. 
 
-![Image](images/reporting/examsteps.jpg)
+![Image](/images/reporting/examsteps.jpg)
 
 ## **Case Notes/Bench Notes**
 Brett Shaver's (from [DFIR.training](https://dfir.training)) once said *"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."*
