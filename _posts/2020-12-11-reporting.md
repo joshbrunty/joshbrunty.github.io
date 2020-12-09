@@ -83,8 +83,7 @@ This section will vary in length but generally this should be a one-paragraph su
 
 This should be a table or listing of evidence containing the descriptive details of the physical evidence items submitted (hard drives, mobile devices, etc). A good evidence listing will include make, model, serial numbers, description, condition, hash values, custodian information, etc.  
 
-`EXAMPLE:`{:.success}
-![Image](/images/reporting/PhysicalEvidenceExample.jpg)
+`EXAMPLE:`{:.success} ![Image](/images/reporting/PhysicalEvidenceExample.jpg)
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
