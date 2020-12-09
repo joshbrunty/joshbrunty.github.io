@@ -62,6 +62,10 @@ Now that we've established our casenotes it's now time to move to the actual For
 
 ## The Forensic Report
 
+The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. The report may include something similar or a slightly different flavor to the following: *Title Page, Table of Contents, an Overview/Case/Executive Summary, Evidence, Objectives, Steps Taken (forensic acquisition & exam preparation), Relevant Findings (forensic analysis), Conclusion, and Exhibits.*
+
+#### The Forensic Report
+
 Characters of the Base64 alphabet can be grouped into four groups:
 
 * **Uppercase letters** (indices 0-25): *ABCDEFGHIJKLMNOPQRSTUVWXYZ*
