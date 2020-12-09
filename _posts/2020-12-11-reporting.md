@@ -16,7 +16,7 @@ Each year I get asked a common question by students here at Marshall University 
 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me a good report ALWAYS starts with two important phases: 1) good planning and preparation and 2) casenotes/benchnotes.
 
-### **Planning & Preparation**
+## **Planning & Preparation**
 Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone, laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords and suspect names to search for pertaining the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. Even when drafting the report, the detective was STILL giving me keywords. A process that should have taken weeks took months and hours of fruitless searches. The report took *forever* to draft because of the complexity of the searches and steps performed. At the end of this I was asking myself "What if better planning had been executed?" Later in my career I sought to answer these questions *BEFORE* I began the case rather than after. This better planning, in turn, led to better reports. 
 
 There are dozens of models that describe the digital forensic process and how to approach this planning. A good read that approaches this process head-on is the article written by Mark Pollitt titled [*The key to forensic success: examination planning is a key determinant of efficient and effective digital forensics*](https://doi.org/10.1016/B978-0-12-804526-8.00002-2). In this paper, Mark approaches examination planning through using the [National Institute of Standards and Technology (NIST) SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf), which describes the process in four (4) stages, defined as follows:
@@ -58,7 +58,9 @@ Good question. I'm providing one of my own Microsoft Word examples *HERE*. There
 
 An example Case Notes PDF report can be downloaded [HERE](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf). One of the things I really like & appreciate about Forensic Notes is that it compels DFIR examiners to carefully and contemporaneously take notes in a given investigation. Keep in mind, MOST of the work that DFIR examiners ends up in court and/or legal proceedings in some way, shape or form. Investigators need the ability to document complex investigations and not worry about losing or misplacing critical notes and documents essential for full disclosure if and when such cases reach litigation. 
 
+Now that we've established our casenotes it's now time to move to the actual Foresnic Report. 
 
+## The Forensic Report
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
