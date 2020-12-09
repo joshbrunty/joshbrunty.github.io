@@ -18,16 +18,21 @@ Each year I get asked a common question by students here at Marshall University 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me this starts with good case notes (or bench notes)...
 
 ## **Case Notes/Bench Notes**
+Brett Shaver's once said *"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."*
 
 **Case Notes (or Bench Notes)** are the detailed notes or contemporaneous records that an analyst takes when analyzing the case in whatever tool (or method) they are using. For some analysts and labs these are merely simple text files with items that will be a hard reminder of how to list these items in a report. For other analysts (and accredited digital forensics labs) these case notes can be rather detailed: screenshots, full, detailed steps of analysis, etc. I'll admit that early in my career I truly undervalued the importance of case notes and how they led to a better report. Now, with years of experience under my belt, the value of good notes is at the top of my list. I'm sure at this point you are asking *"What should my case notes look like?"* Well that depends on a variety of factors. First and foremost you have to figure out how all of this fits into the operational flow of your laboratory. Furthermore, you want to consider that these case notes should be bringing you to the ultimate goal of producing a better forensic report and not just adding additional burden upon your caseload.
 
-The common question that always pops up is **"Are my case notes discoverable in court?"** Well, that answer depends. In all my years I never really had a clear, concrete answer to point to, so to answer this question I took to Twitter (see below) to ask the DFIR community. The responses were interesting... 
+The common question that always pops up is *"Are my case notes discoverable in court?"* Well, that answer depends. In all my years I never really had a clear, concrete answer to point to, so to answer this question I took to Twitter (see below) to ask the DFIR community. The responses were interesting... 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This might be a somewhat naive question but this question has stumped me for years: “Are forensic bench/case notes discoverable in court?”</p>&mdash; Josh Brunty (@joshbrunty) <a href="https://twitter.com/joshbrunty/status/1335732128705728512?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 As you can see there is a consensus on the the answer: **"Yes."** Long story short, case notes *are* discoverable under the Federal Rules of Evidence. Although there are loopholes in the court such as claiming the notes as attorney work product or just not turning the notes in with the final report altogether. That all said, it's still important to keep detailed case notes not just for court discovery, but to refresh your own memory if, and when you get to drafting the final report.
 
-*What software and/or templates do I use to keep such notes?* Good question. I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Casenotes](https://first-response.co.uk/casenotes/) is one such option. CaseNotes is a free, open-source option that allows an analyst to store notes, checklists and screen captures in a SQLite database that can optionally be encrypted for additional security. It is a somewhat easy to manage GUI interface with other robust features such as: tamper evident storage of data using internal MD5 hashes, and a secure *'write-once, read-many'* style of entry. 
+*What software and/or templates do I use to keep such notes?* Good question. I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Forensic Notes](https://www.forensicnotes.com/) is one such option. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iJ7v7i1_kxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+An example Case Notes PDF report can be found [HERE](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf). One of the things I really like & appreciate about Forensic Notes is that its organization 
 
 
 
