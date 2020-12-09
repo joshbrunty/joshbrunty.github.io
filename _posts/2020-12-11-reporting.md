@@ -79,6 +79,11 @@ This section will vary in length but generally this should be a one-paragraph su
 `EXAMPLE:`{:.success}
 *On today's date, Detective Marco Marshall contacted the Digital Forensics Laboratory in regards to extracting data from an Android device that had been recovered from a crime scene. Detective Marshall is requesting a forensic examination to see what information by the suspect(s) may have been deleted and is requesting a full forensic examination and report for possible criminal charges.*
 
+### Evidence
+
+This should be a table or listing of evidence containing the descriptive details of the physical evidence items submitted (hard drives, mobile devices, etc). A good evidence listing will include make, model, serial numbers, description, condition, hash values, custodian information, etc.  
+
+
 Characters of the Base64 alphabet can be grouped into four groups:
 
 * **Uppercase letters** (indices 0-25): *ABCDEFGHIJKLMNOPQRSTUVWXYZ*
