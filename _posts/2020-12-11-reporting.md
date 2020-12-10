@@ -84,7 +84,9 @@ This section will vary in length but generally this should be a one-paragraph su
 ### Evidence
 This should be a table or listing of evidence containing the descriptive details of the physical evidence items submitted (hard drives, mobile devices, etc). A good evidence listing will include make, model, serial numbers, description, condition, hash values, custodian information, etc.  
 
-EXAMPLE: {:.success} ![Image](/images/reporting/PhysicalEvidenceExample.jpg)
+{:.success} 
+**EXAMPLE:** 
+![Image](/images/reporting/PhysicalEvidenceExample.jpg)
 
 ### Objectives
 this section outlines spcifically what are you being asked to do. You will include your hypothesis here.  IT is especially important to include if you were asked to perform a targeted investigation.  Also a good idea to include any specific search terms requested.
