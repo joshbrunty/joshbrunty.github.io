@@ -97,10 +97,14 @@ This is what you did, what you did it with (including make, model, and version o
 *1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.
 *2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools
 *3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:
-**       Cellebrite Physical Analyzer v.7.13 (build 6600)
-**       Magnet Axiom v.4.16
-**       Oxygen Forensic Detective v.3.16 (build 3383)
-**       Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
+
+*       *1) Cellebrite Physical Analyzer v.7.13 (build 6600)
+
+*       *2) Magnet Axiom v.4.16
+
+*       *3) Oxygen Forensic Detective v.3.16 (build 3383)
+
+*       *4) Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
 
 **Example #2: Network Forensics Examination**
 
