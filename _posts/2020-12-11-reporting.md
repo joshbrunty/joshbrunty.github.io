@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Report-Writing for Digital Forensics
-tags: reporting reports DFIR Casenotes
+title: Report Writing for Digital Forensics
+tags: reporting report writing DFIR casenotes
 author: rms
 key: anything
 class: success error shadow
@@ -52,7 +52,7 @@ As you can see there is a consensus on the the answer: *"Yes."* Long story short
 
 *What software and/or templates do I use to keep such notes?* 
 
-Good question. I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Forensic Notes](https://www.forensicnotes.com/) is one such option. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
+Good question! I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Forensic Notes](https://www.forensicnotes.com/) is one such option. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iJ7v7i1_kxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -91,13 +91,29 @@ this section outlines spcifically what are you being asked to do. You will inclu
 This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
 
 `EXAMPLE #1: Mobile Device Forensics Examination`{:.success}
-*1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.
-2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools
-3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:
-* Cellebrite Physical Analyzer v.7.13 (build 6600)
-* Magnet Axiom v.4.16
-* Oxygen Forensic Detective v.3.16 (build 3383)
-* Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
+*1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
+*2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
+*3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
+* *Cellebrite Physical Analyzer v.7.13 (build 6600)
+* *Magnet Axiom v.4.16
+* *Oxygen Forensic Detective v.3.16 (build 3383)
+* *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
+
+`EXAMPLE #2: Network Forensics Examination`{:.success}
+**Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the
+desktop of the forensic machine being utilized for investigation, the file was opened using
+Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained
+on the file were set to UTC time prior to determining the range of packet captures. The
+analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Figure 1**)
+until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file
+were then determined by the analyst to be 95,175 packets.*
+
+**Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol
+hierarchy for the entire PCAP file using Wireshark (**Figure 3**) and found 100% of the
+packets to be Ethernet, with 95.8% having an IPv4 IP address. Further
+investigation found that 88.1% of the total packets used Transmission Control Protocol (TCP) and
+that 10.8% attributed to Hypertext Transfer Protocol (HTTP) (**Figure 4**).
+
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
