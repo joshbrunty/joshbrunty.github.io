@@ -8,7 +8,7 @@ class: success error shadow
 article_header:
   type: cover
   image:
-    src: /images/base64/base64.gif 
+    src: 
     
 ---
 ## **Prologue**
