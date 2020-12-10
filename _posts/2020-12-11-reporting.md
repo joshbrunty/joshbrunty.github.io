@@ -76,7 +76,7 @@ The Table of Contents should include each section of the report along with page 
 
 This section will vary in length but generally this should be a one-paragraph summary of the entire report. Summaries should be short, sweet, and to-the-point. You will include any relevant information regarding what led to you as the digital forensic examiner/analyst becoming involved with the digital evidence. You may be just receiving the fdigital evidence and someone else conducted the forensic acquisition and this is a good place to document that as this will correlate with your chain of custody information that you immediately started once you came into contact with the digital evidence. Keep in mind, this is an overview and a summary of how the case was initialized and where you as the examiner/analyst became involved.
 
-`EXAMPLE:`{:.success}
+{:.success}
 *On today's date, Detective Marco Marshall contacted the Digital Forensics Laboratory in regards to extracting data from an Android device that had been recovered from a crime scene. Detective Marshall is requesting a forensic examination to see what information by the suspect(s) may have been deleted and is requesting a full forensic examination and report for possible criminal charges.*
 
 ### Evidence
@@ -91,16 +91,18 @@ this section outlines spcifically what are you being asked to do. You will inclu
 This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
 
 {:.success} Example #1: Mobile Device Forensics Examination
-*1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
-*2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
-*3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
-* *Cellebrite Physical Analyzer v.7.13 (build 6600)
-* *Magnet Axiom v.4.16
-* *Oxygen Forensic Detective v.3.16 (build 3383)
-* *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
+
+* *1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
+* *2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
+* *3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
+**       *Cellebrite Physical Analyzer v.7.13 (build 6600)
+**       *Magnet Axiom v.4.16
+**       *Oxygen Forensic Detective v.3.16 (build 3383)
+**       *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
 
 {:.success} 
 Example #2: Network Forensics Examination
+
 * **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the
 desktop of the forensic machine being utilized for investigation, the file was opened using
 Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained
