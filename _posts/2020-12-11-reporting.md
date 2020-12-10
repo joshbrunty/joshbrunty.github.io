@@ -87,11 +87,17 @@ This should be a table or listing of evidence containing the descriptive details
 ### Objectives
 this section outlines spcifically what are you being asked to do. You will include your hypothesis here.  IT is especially important to include if you were asked to perform a targeted investigation.  Also a good idea to include any specific search terms requested.
 
-### Steps Taken
+### Forensic Analyis (Steps Taken)
 This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
 
-
-`EXAMPLE:`{:.success}
+`EXAMPLE #1: Mobile Device Forensics Examination`{:.success}
+*1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.
+2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools
+3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:
+* Cellebrite Physical Analyzer v.7.13 (build 6600)
+* Magnet Axiom v.4.16
+* Oxygen Forensic Detective v.3.16 (build 3383)
+* Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
