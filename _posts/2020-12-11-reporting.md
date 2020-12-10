@@ -82,7 +82,7 @@ This section will vary in length but generally this should be a one-paragraph su
 ### Evidence
 This should be a table or listing of evidence containing the descriptive details of the physical evidence items submitted (hard drives, mobile devices, etc). A good evidence listing will include make, model, serial numbers, description, condition, hash values, custodian information, etc.  
 
-`EXAMPLE:`{:.success} ![Image](/images/reporting/PhysicalEvidenceExample.jpg)
+EXAMPLE: {:.success} ![Image](/images/reporting/PhysicalEvidenceExample.jpg)
 
 ### Objectives
 this section outlines spcifically what are you being asked to do. You will include your hypothesis here.  IT is especially important to include if you were asked to perform a targeted investigation.  Also a good idea to include any specific search terms requested.
@@ -90,7 +90,7 @@ this section outlines spcifically what are you being asked to do. You will inclu
 ### Forensic Analyis (Steps Taken)
 This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
 
-`EXAMPLE #1: Mobile Device Forensics Examination`{:.success}
+{:.success} Example #1: Mobile Device Forensics Examination
 *1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
 *2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
 *3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
@@ -99,8 +99,9 @@ This is what you did, what you did it with (including make, model, and version o
 * *Oxygen Forensic Detective v.3.16 (build 3383)
 * *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06
 
-`EXAMPLE #2: Network Forensics Examination`{:.success}
-**Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the
+{:.success} 
+Example #2: Network Forensics Examination
+* **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the
 desktop of the forensic machine being utilized for investigation, the file was opened using
 Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained
 on the file were set to UTC time prior to determining the range of packet captures. The
@@ -108,7 +109,7 @@ analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Fig
 until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file
 were then determined by the analyst to be 95,175 packets.*
 
-**Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol
+* **Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol
 hierarchy for the entire PCAP file using Wireshark (**Figure 3**) and found 100% of the
 packets to be Ethernet, with 95.8% having an IPv4 IP address. Further
 investigation found that 88.1% of the total packets used Transmission Control Protocol (TCP) and
