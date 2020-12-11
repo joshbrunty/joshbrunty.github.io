@@ -105,9 +105,9 @@ This is what you did, what you did it with (including make, model, and version o
 
 **Example #2: Network Forensics Examination**
 
-* **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the desktop of the forensic machine being utilized for investigation, the file was opened using Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained on the file were set to UTC time prior to determining the range of packet captures. The analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Figure 1**) until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file were then determined by the analyst to be 95,175 packets.
+* **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the desktop of the forensic machine being utilized for investigation, the file was opened using Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained on the file were set to UTC time prior to determining the range of packet captures. The analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Figure 1**) until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file were then determined by the analyst to be 95,175 packets.*
 
-* **Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol hierarchy for the entire PCAP file using Wireshark (***Figure 3***) *and found 100% of the packets to be Ethernet, with 95.8% having an IPv4 IP address. Further investigation found that 88.1% of the total packets used Transmission Control Protocol (TCP) and that 10.8% attributed to Hypertext Transfer Protocol (HTTP) (**Figure 4**).
+* **Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol hierarchy for the entire PCAP file using Wireshark (***Figure 3***) *and found 100% of the packets to be Ethernet, with 95.8% having an IPv4 IP address. Further investigation found that 88.1% of the total packets used Transmission Control Protocol (TCP) and that 10.8% attributed to Hypertext Transfer Protocol (HTTP) (**Figure 4**).*
 
 
 Characters of the Base64 alphabet can be grouped into four groups:
