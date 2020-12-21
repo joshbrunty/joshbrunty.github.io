@@ -106,6 +106,20 @@ This is what you did, what you did it with (including make, model, and version o
 * **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the desktop of the forensic machine being utilized for investigation, the file was opened using Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained on the file were set to UTC time prior to determining the range of packet captures. The analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Figure 1**) until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file were then determined by the analyst to be 95,175 packets.*
 * **Analysis #2**- *Examination of Protocol Hierarchy: The analyst examined the protocol hierarchy for the entire PCAP file using Wireshark (***Figure 3***) *and found 100% of the packets to be Ethernet, with 95.8% having an IPv4 IP address. Further investigation found that 88.1% of the total packets used Transmission Control Protocol (TCP) and that 10.8% attributed to Hypertext Transfer Protocol (HTTP) (**Figure 4**).*
 
+### Report
+The report should be most detailed section of your investigation. You will include all artifacts and relevant findings during your analysis relating to the case.  These should be directly related/linked to the Objectives/Falsifiable hypothesis. These should be all of the Bookmarks that you created. Each piece of evidence must be fully explained in a way that a layperson can understand it.
+
+## **Other Considerations**
+
+### Appendices
+Good appendices can make or break a good report. It's a good rule of thumb is to reserve exhibits A and B for my CV and Evidence Chain of Custody, respectively.  Certainly not necessary, but it makes it so I always remember to include them in my reports. You will need to include a PDF copy of any automated, tool-generated reports in your appendices as well. A very good practice when you are including your evidence into your report is to include hyperlinks to exhibits/figures/tables etc. Make sure you test and validate that the hyperlinks work properly so when your report is being reviewed, the reader can navigate easily to the evidence that you are including in your report.
+
+### Formatting 
+Reports should include a page number with a total page count (*i.e. 6 of 7, 7 of 7*) on each page. This will ensure that if a page is removed or separated from your report that it will be easy to spot if that were to occur. A common header and/or footer with distinguishings such as an agency logo, address, examiner name, etc. is also good practice.
+
+### Figures
+I've written reports with exhibits/figures/tables scattered throughout and reports with exhibits/figures/tables in the appendix. All figures and table must include a descriptive caption. Each caption must include a figure/table number followed by a detailed description of what the figure/table depicts. Captions must follow this format: 
+
 
 Characters of the Base64 alphabet can be grouped into four groups:
 
