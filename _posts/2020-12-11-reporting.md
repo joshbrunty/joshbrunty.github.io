@@ -118,73 +118,19 @@ Good appendices can make or break a good report. It's a good rule of thumb is to
 Reports should include a page number with a total page count (*i.e. 6 of 7, 7 of 7*) on each page. This will ensure that if a page is removed or separated from your report that it will be easy to spot if that were to occur. A common header and/or footer with distinguishings such as an agency logo, address, examiner name, etc. is also good practice.
 
 ### Figures
-I've written reports with exhibits/figures/tables scattered throughout and reports with exhibits/figures/tables in the appendix. All figures and table must include a descriptive caption. Each caption must include a figure/table number followed by a detailed description of what the figure/table depicts. Captions must follow this format: 
+I've written reports with exhibits/figures/tables scattered throughout and reports with exhibits/figures/tables in the appendix. All figures and table must include a descriptive caption. Each caption must include a figure/table number followed by a detailed description of what the figure/table depicts.
 
+### Glossary
+It's nearly impossible not to utilize scientific terminology when writing a report, especially when describing methodology. The Scientific Working Group on Digital Evidence (SWGDE) provides a [Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view)with general, as well as discipline specific, definitions as they apply across the spectrum of image analysis, computer forensics, video analysis, and forensic audio. ASTM has also developed Standard [E2916](https://www.astm.org/Standards/E2916.htm)-Standard Terminology for Digital and Multimedia Evidence Examination. In addition, NIST OSAC has created a [lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon) of over 4,000 terms organized by forensic discipline. These terms are aggregated from sources such as aforementioned SWGDE & ASTM glossaries. The Lexicon also includes the source document of the definition. Although it doesn't include every term you would need to define in your forensic reports, each of these are reputable sources with definitions that should stand up in court.
 
-Characters of the Base64 alphabet can be grouped into four groups:
+## 1st or 3rd Person?
+One question that commonly pops up is: *"Do I write reports in 1st or 3rd person?"* Well the answer is quite simple: *"It depends..."* Once again, I took to Twitterverse to ask the question of the DFIR community. 
 
-* **Uppercase letters** (indices 0-25): *ABCDEFGHIJKLMNOPQRSTUVWXYZ*
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When writing your DFIR reports do you all use 3rd person (the analyst) or first person (I, me)?</p>&mdash; Josh Brunty (@joshbrunty) <a href="https://twitter.com/joshbrunty/status/1326533717033185280?ref_src=twsrc%5Etfw">November 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-* **Lowercase letters** (indices 26-51): *abcdefghijklmnopqrstuvwxyz*
+As you can see the responses varied all over the place, but the general consensus is that the voice should be dependant upon the circumstances itself. Agency policy may dictate that an analyst/examiner write reports in 1st or 3rd person, while an expert report may require you to write in 1st person. That all said, it comes down to the decision of the analyst. It's the whole reason they call us analyst's or experts right? 
 
-* **Digits** (indices 52-61): *0123456789* 
-
-* **Special Symbols** (indices 62-63): *+/*
-
-I have grouped all of the above indices into the following table below:
-
-![Image](/images/base64/base64table.png)
-
-It is  very important to note that the Base64 letters are **case sensitive**. This means that, for example, when decoding the values *QQ==*, *Qq==*, *qq==*,  and *qQ==* four different results are obtained.
-
-Decoding Base64 by hand is not a common practice as most (if not all) digital & mobile forensics tools decode Base64 automatically, in addition to online decoding resources available. However, understanding the structure of how BASE64 encodes data is a critical component of digital forensics. Many applications (especially messaging applications) utilize this encoding scheme. 
-
-## **Methodology**
-Decoding Base64 is a tedious, but straightforward process. To accomplish this we will follow this 4 step process:
-
-{:.success}
-**Step #1: Convert the ASCII to Binary**  
-
-* **HER** (decimal 72, 69, 82) becomes: 01001000 01000101 01010010
-
-* **HERD** (decimal 72, 69, 82, 68) becomes: 01001000 01000101 01010010 01000100 
-
-* **HERDU** (decimal 72, 69, 82, 68, 85) becomes: 01001000 01000101 01010010 01000100 01010101 
-
-{:.success}
-**Step #2: Next, your bits must be divisible by 6, so re-section each binary into 6-bit increments, and, if not divisible by 6, pad the end with zeros until it is:**
-
-* **HER** becomes: 010010 000100 010101 010010
-
-* **HERD** becomes: 010010 000100 010101 010010 010001 00*0000*
-
-* **HERDU** becomes: 010010 000100 010101 010010 010001 000101 0101*00*
-
-{:.success}
-**Step #3 Now, convert your 6-bit words you just created into decimal (utilizing this handy chart below):**
-
-![Image](/images/base64/6bitconversionchart.PNG)
-
-`NOTE:`{:.success}
-The first two bits in each word will be zeros. Therefore, "H" converts to 010010, which then equals 18.
-
-* **HER** becomes: 18 4 21 18 
-
-* **HERD** becomes: 18 4 21 18 17 0
-
-* **HERDU** becomes: 18 4 21 18 17 5 17
-
-{:.success}
-**Step #4 Finally, utilize the BASE64 chart above to covert the index value to the appropriate ASCII character. This BASE64 table remains constant, which means that other systems are able to properly decode the data.**
-
-![Image](/images/base64/BASE64converted.PNG)
-
-`NOTE:`{:.success}
-*HER* is 3 units in length and thus doesn't require padding, whereas *HERD* totals 4 units, so it requires a padding of 2 (2 equal signs "==") to make the length of 6, which is now divisible by 3. The pad character (=) does not have a binary representation in Base64; it is inserted into the Base64 text as a placeholder to maintain 24-bit alignment.
-
-## **Conclusion** 
-
-To perform this automatically I'd recommend utilizing the builtin decoding mechanisms of your forensic tools. Tools like Cellebrite & Magnet Axiom have robust data coversion capabilities, but there might be a case where you are using a standalone script or utility that doesn't have such a mechanism. One such program I highy recommend using is [CyberChef](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')&input=SEVSRA). CyberChef handles both Base64 encoding/decoding (among a host of other decoding types commonly encountered by digital forensics examiners). 
+## **Conclusion**
 
 ## **Additional Links**
 
