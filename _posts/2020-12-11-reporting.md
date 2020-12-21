@@ -121,7 +121,7 @@ Reports should include a page number with a total page count (*i.e. 6 of 7, 7 of
 I've written reports with exhibits/figures/tables scattered throughout and reports with exhibits/figures/tables in the appendix. All figures and table must include a descriptive caption. Each caption must include a figure/table number followed by a detailed description of what the figure/table depicts.
 
 ### Glossary
-It's nearly impossible not to utilize scientific terminology when writing a report, especially when describing methodology. The Scientific Working Group on Digital Evidence (SWGDE) provides a [Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view)with general, as well as discipline specific, definitions as they apply across the spectrum of image analysis, computer forensics, video analysis, and forensic audio. ASTM has also developed Standard [E2916](https://www.astm.org/Standards/E2916.htm)-Standard Terminology for Digital and Multimedia Evidence Examination. In addition, NIST OSAC has created a [lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon) of over 4,000 terms organized by forensic discipline. These terms are aggregated from sources such as aforementioned SWGDE & ASTM glossaries. The Lexicon also includes the source document of the definition. Although it doesn't include every term you would need to define in your forensic reports, each of these are reputable sources with definitions that should stand up in court.
+It's nearly impossible not to utilize scientific terminology when writing a report, especially when describing methodology. The Scientific Working Group on Digital Evidence (SWGDE) provides a [Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view) with general, as well as discipline specific, definitions as they apply across the spectrum of image analysis, computer forensics, video analysis, and forensic audio. ASTM has also developed Standard [E2916](https://www.astm.org/Standards/E2916.htm)-Standard Terminology for Digital and Multimedia Evidence Examination. In addition, NIST OSAC has created a [lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon) of over 4,000 terms organized by forensic discipline. These terms are aggregated from sources such as aforementioned SWGDE & ASTM glossaries. The Lexicon also includes the source document of the definition. Although it doesn't include every term you would need to define in your forensic reports, each of these are reputable sources with definitions that should stand up in court.
 
 ### 1st or 3rd Person?
 One question that commonly pops up is: *"Do I write reports in 1st or 3rd person?"* Well the answer is quite simple: *"It depends..."* Once again, I took to Twitterverse to ask the question of the DFIR community. 
@@ -134,12 +134,18 @@ As you can see the responses varied all over the place, but the general consensu
 
 ## **Additional Links**
 
-* [CyberChef](https://gchq.github.io/CyberChef/)
+* [Forensic Casenotes Software](https://www.forensicnotes.com/forensic-case-notes/)
 
-* [Base64 Alphabets (Gary Kessler)](https://www.garykessler.net/library/base64.html)
+* [SANS Intro to Report Writing for Digital Forensics](https://www.sans.org/blog/intro-to-report-writing-for-digital-forensics/) 
 
-* [RFC 4648](https://www.rfc-editor.org/rfc/rfc4648.txt)
+* [SWGDE Requirements for Report Writing](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view)
 
-* [Online Base64 Decoder](https://www.base64decode.org/)
+* [SWGDE Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view)
+
+* [ASTM Standard E2916](https://www.astm.org/Standards/E2916.htm)
+
+* [NIST OSAC Lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon)
+
+* [NIST SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf)
 
 <!--more-->
