@@ -1,8 +1,7 @@
 ---
 layout: article
+title: About Me
 ---
-# About Me
-
 ![Image](images/about/bruntyheadshot200.jpg){:.shadow}
 
 I am a Professor of Cyber Forensics & Cybersecurity @ [Marshall University](https://www.marshall.edu)
