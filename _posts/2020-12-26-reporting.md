@@ -67,10 +67,13 @@ An example Case Notes PDF report can be downloaded [HERE](https://www.forensicno
 Now that we've established our casenotes it's now time to move to the actual Forensic Report. 
 
 ## The Forensic Report
-The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. The report may include something similar or a slightly different flavor to the following: *Title Page, Table of Contents, an Overview/Case/Executive Summary, Evidence, Objectives, Steps Taken (forensic acquisition & exam preparation), Relevant Findings (forensic analysis), Conclusion, and Exhibits.*
+Digital and multimedia evidence, as well as the tools, techniques, and methodologies used in an examination, are subject to challenge in a court of law or other formal proceedings. Proper documentation is essential in providing individuals the ability to reproduce the forensic process
+and the results. [The Scientific Working Group on Digital Evidence (SWGDE)](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view) states that *Reporting is the process of preparing a summary of steps taken during the examination of digital media.* A thorough examination report is written using documentation collected by the examiner, including photographs, drawings, case-notes, tool-generated content, etc. Many forensic tools come with built-in reporting functionality that is specific to that tool’s actions and results, but does not typically document the full scope of the examination. Tool reports may be considered supporting documentation to the examination report or referenced as an appendix. 
+
+The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. There really is no de-facto format and/or reporting standard per-se. Formatting and layout options are up to the examiner/analyst, or they may be defined by organizational policies or jurisdictional court rules. The report may include something similar or a slightly different flavor to the following: *Title Page, Table of Contents, an Overview/Case/Executive Summary, Evidence, Objectives, Steps Taken (forensic acquisition & exam preparation), Relevant Findings (forensic analysis), Conclusion, and Exhibits.*
 
 ### Title Page
-The Title Page should include case name, date, investigator name and contact information. 
+The Title Page should include case name, date, investigator name and contact information.
 
 ### Table of Contents
 The Table of Contents should include each section of the report along with page numbers. If drafting in Microsoft Word a table of contents can be [generated automatically](https://support.microsoft.com/en-us/office/insert-a-table-of-contents-882e8564-0edb-435e-84b5-1d8552ccf0c0). 
@@ -116,7 +119,12 @@ The report should be most detailed section of your investigation. You will inclu
 Good appendices can make or break a good report. It's a good rule of thumb is to reserve exhibits A and B for my CV and Evidence Chain of Custody, respectively.  Certainly not necessary, but it makes it so I always remember to include them in my reports. You will need to include a PDF copy of any automated, tool-generated reports in your appendices as well. A very good practice when you are including your evidence into your report is to include hyperlinks to exhibits/figures/tables etc. Make sure you test and validate that the hyperlinks work properly so when your report is being reviewed, the reader can navigate easily to the evidence that you are including in your report.
 
 ### Formatting 
-Reports should include a page number with a total page count (*i.e. 6 of 7, 7 of 7*) on each page. This will ensure that if a page is removed or separated from your report that it will be easy to spot if that were to occur. A common header and/or footer with distinguishings such as an agency logo, address, examiner name, etc. is also good practice.
+Reports should include a page number with a total page accountability (*i.e. 6 of 7, 7 of 7*). This will ensure that if a page is removed or separated from your report that it will be easy to spot if that were to occur. A common header and/or footer with distinguishings such as an agency logo, address, examiner name, etc. is also good practice. A title similar to “Report of Examination,” to provide an immediate and accurate identification of the information being provided should also be included. SWGDE also defines General information elements which include:
+* A title similar to “Report of Examination,” to provide an immediate and accurate identification of the information being provided
+* Name and address of the examining organization/laboratory
+* Case identifier and page accountability (page number and total number of pages)
+* Date of report (date of final signed version)
+* Acronyms and abbreviations defined at first use, if not in the common vernacular of the general public
 
 ### Figures
 I've written reports with exhibits/figures/tables scattered throughout and reports with exhibits/figures/tables in the appendix. All figures and table must include a descriptive caption. Each caption must include a figure/table number followed by a detailed description of what the figure/table depicts.
