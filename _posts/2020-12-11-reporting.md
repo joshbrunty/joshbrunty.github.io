@@ -12,14 +12,14 @@ article_header:
     
 ---
 ## **Prologue**
-**"How do I write a DFIR report?"**
+***"How do I write a DFIR report?"***
 
 You wouldn't believe how many times that question gets asked out of me here at Marshall University (and sometimes in the DFIR community). Year after year I've given the same answer; a list full of outdated links and a verbal "laundry list" collection of tidbits and links I've collected and have seen work over my 15+ years of working in this community. As digital forensic examiners/analysts, it's a given that we must report and present our findings on a very technical discipline in a simplistic manner. I always tell students that everything should be explained to *"make sense to "your 80 old grandmother."* I think most all of us can relate to that funny, yet true symbolism. However, that *grandmother* may be a supervisor, client, attorney, etc. or even to a judge and jury who will read and interpret your report after it has been cross-examined. Are you prepared to explain your findings? When the case goes to trial and you are called upon to testify a year or more in the future will you be able to remember the case based simply from the details you included in your digital forensic report? Better yet, will someone else be able to make sense of (or even validate) my findings if I'm not around to explain them? *What templates do I use? What headings do I include? How do I list figures?* The list can go on and on and on. I'll do my best to address these (and a host of other things) in this article. 
 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me a good report ALWAYS starts with two important phases: 1) good planning and preparation and 2) casenotes/benchnotes.
 
 ## **Planning & Preparation**
-*"Failing to prepare is preparing to fail"* -Coach John Wooden
+***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
 Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone, laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords and suspect names to search for pertaining the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. Even when drafting the report, the detective was STILL giving me keywords. A process that should have taken weeks took months and hours of fruitless searches. The report took *forever* to draft because of the complexity of the searches and steps performed. At the end of this I was asking myself "What if better planning had been executed?" Later in my career I sought to answer these questions *BEFORE* I began the case rather than after. This better planning, in turn, led to better reports. 
 
@@ -42,11 +42,11 @@ how tools and procedures were selected; a determination of any other actions tha
 Clearly the last stage focuses on the *Reporting* phase of the analysis, which is the major focus of this writing. But before we move to this phase I want to stop and discuss the second and last important phase leading to an effective report: drafting good casenotes/benchnotes.
 
 ## **Case Notes/Bench Notes**
-*"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."* -Brett Shavers ([DFIR.training](https://dfir.training))
+***"It's easy to use a documentation system before you begin working a case. It's impossible to start one after your case is done..."*** -Brett Shavers ([DFIR.training](https://dfir.training))
 
 **Case Notes (or Bench Notes)** are the detailed notes or contemporaneous records that an analyst takes when analyzing the case in whatever tool (or method) they are using. For some analysts and labs these are merely simple text files with items that will be a hard reminder of how to list these items in a report. For other analysts (and accredited digital forensics labs) these case notes can be rather detailed: screenshots, full, detailed steps of analysis, etc. I'll admit that early in my career I truly undervalued the importance of case notes and how they led to a better report. Now, with years of experience under my belt, the value of good notes is at the top of my list. I'm sure at this point you are asking *"What should my case notes look like?"* Well that depends on a variety of factors. First and foremost you have to figure out how all of this fits into the operational flow of your laboratory. Furthermore, you want to consider that these case notes should be bringing you to the ultimate goal of producing a better forensic report and not just adding additional burden upon your caseload.
 
-*"Are my case notes discoverable in court?"* 
+***"Are my case notes discoverable in court?"*** 
 
 Well, that answer depends. In all my years I never really had a clear, concrete answer to point to, so to answer this question I took to Twitter (see below) to ask the DFIR community. The responses were interesting... 
 
@@ -54,7 +54,7 @@ Well, that answer depends. In all my years I never really had a clear, concrete 
 
 As you can see there is a consensus on the the answer: *"Yes."* Long story short, case notes *are* discoverable under the Federal Rules of Evidence. Although there are loopholes in the court such as claiming the notes as attorney work product or just not turning the notes in with the final report altogether. That all said, it's still important to keep detailed case notes not just for court discovery, but to refresh your own memory if, and when you get to drafting the final report.
 
-*What software and/or templates do I use to keep such notes?* 
+***What software and/or templates do I use to keep such notes?***
 
 Good question! I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Forensic Notes](https://www.forensicnotes.com/) is one such option. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
 
