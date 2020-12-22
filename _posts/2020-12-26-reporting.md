@@ -8,7 +8,7 @@ class: success error shadow
 article_header:
   type: cover
   image:
-    src: 
+    src: /images/reporting/lumberg-dfir.jpg
     
 ---
 ## **Prologue**
