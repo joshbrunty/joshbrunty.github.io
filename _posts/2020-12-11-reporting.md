@@ -65,23 +65,18 @@ An example Case Notes PDF report can be downloaded [HERE](https://www.forensicno
 Now that we've established our casenotes it's now time to move to the actual Foresnic Report. 
 
 ## The Forensic Report
-
 The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. The report may include something similar or a slightly different flavor to the following: *Title Page, Table of Contents, an Overview/Case/Executive Summary, Evidence, Objectives, Steps Taken (forensic acquisition & exam preparation), Relevant Findings (forensic analysis), Conclusion, and Exhibits.*
 
 ### Title Page
-
 The Title Page should include case name, date, investigator name and contact information. 
 
 ### Table of Contents
-
 The Table of Contents should include each section of the report along with page numbers. If drafting in Microsoft Word a table of contents can be [generated automatically](https://support.microsoft.com/en-us/office/insert-a-table-of-contents-882e8564-0edb-435e-84b5-1d8552ccf0c0). 
 
 ### Overview/Case/Executive Summary
-
 This section will vary in length but generally this should be a one-paragraph summary of the entire report. Summaries should be short, sweet, and to-the-point. You will include any relevant information regarding what led to you as the digital forensic examiner/analyst becoming involved with the digital evidence. You may be just receiving the fdigital evidence and someone else conducted the forensic acquisition and this is a good place to document that as this will correlate with your chain of custody information that you immediately started once you came into contact with the digital evidence. Keep in mind, this is an overview and a summary of how the case was initialized and where you as the examiner/analyst became involved.
 
 **Example Case Summary**
-
 *On today's date, Detective Marco Marshall contacted the Digital Forensics Laboratory in regards to extracting data from an Android device that had been recovered from a crime scene. Detective Marshall is requesting a forensic examination to see what information by the suspect(s) may have been deleted and is requesting a full forensic examination and report for possible criminal charges.*
 
 ### Evidence
@@ -137,19 +132,12 @@ As you can see the responses varied all over the place, but the general consensu
 ## **Conclusion**
 
 ## **Additional Links**
-
 * [Forensic Casenotes Software](https://www.forensicnotes.com/forensic-case-notes/)
-
 * [SANS Intro to Report Writing for Digital Forensics](https://www.sans.org/blog/intro-to-report-writing-for-digital-forensics/) 
-
 * [SWGDE Requirements for Report Writing](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view)
-
 * [SWGDE Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view)
-
 * [ASTM Standard E2916](https://www.astm.org/Standards/E2916.htm)
-
 * [NIST OSAC Lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon)
-
 * [NIST SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf)
 
 <!--more-->
