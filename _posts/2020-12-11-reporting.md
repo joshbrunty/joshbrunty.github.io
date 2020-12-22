@@ -14,6 +14,15 @@ article_header:
 ## **Prologue**
 *"How do I write a DFIR report?"*
 
+<div class="card">
+  <div class="card__content">
+    <div class="card__header">
+      <h4>"How do I write a digital forensics report?"</h4>
+    </div>
+    <p>...</p>
+  </div>
+</div>
+
 You wouldn't believe how many times that question gets asked out of me here at Marshall University (and sometimes in the DFIR community). Year after year I've given the same answer; a list full of outdated links and a verbal "laundry list" collection of tidbits and links I've collected and have seen work over my 15+ years of working in this community. As digital forensic examiners/analysts, it's a given that we must report and present our findings on a very technical discipline in a simplistic manner. I always tell students that everything should be explained to *"make sense to "your 80 old grandmother."* I think most all of us can relate to that funny, yet true symbolism. However, that *grandmother* may be a supervisor, client, attorney, etc. or even to a judge and jury who will read and interpret your report after it has been cross-examined. Are you prepared to explain your findings? When the case goes to trial and you are called upon to testify a year or more in the future will you be able to remember the case based simply from the details you included in your digital forensic report? Better yet, will someone else be able to make sense of (or even validate) my findings if I'm not around to explain them? *What templates do I use? What headings do I include? How do I list figures?* The list can go on and on and on. I'll do my best to address these (and a host of other things) in this article. 
 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me a good report ALWAYS starts with two important phases: 1) good planning and preparation and 2) casenotes/benchnotes.
