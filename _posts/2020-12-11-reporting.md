@@ -62,7 +62,7 @@ Good question! I'm providing one of my own Microsoft Word examples *HERE*. There
 
 An example Case Notes PDF report can be downloaded [HERE](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf). One of the things I really like & appreciate about Forensic Notes is that it compels DFIR examiners to carefully and contemporaneously take notes in a given investigation. Keep in mind, MOST of the work that DFIR examiners ends up in court and/or legal proceedings in some way, shape or form. Investigators need the ability to document complex investigations and not worry about losing or misplacing critical notes and documents essential for full disclosure if and when such cases reach litigation. 
 
-Now that we've established our casenotes it's now time to move to the actual Foresnic Report. 
+Now that we've established our casenotes it's now time to move to the actual Forensic Report. 
 
 ## The Forensic Report
 The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. The report may include something similar or a slightly different flavor to the following: *Title Page, Table of Contents, an Overview/Case/Executive Summary, Evidence, Objectives, Steps Taken (forensic acquisition & exam preparation), Relevant Findings (forensic analysis), Conclusion, and Exhibits.*
