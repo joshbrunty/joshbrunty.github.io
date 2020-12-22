@@ -132,7 +132,7 @@ As you can see the responses varied all over the place, but the general consensu
 ## **Conclusion**
 
 ## **Additional Links**
-* [Forensic Casenotes Software](https://www.forensicnotes.com/forensic-case-notes/)
+* [Forensic Notes Software](https://www.forensicnotes.com/forensic-case-notes/)
 * [SANS Intro to Report Writing for Digital Forensics](https://www.sans.org/blog/intro-to-report-writing-for-digital-forensics/) 
 * [SWGDE Requirements for Report Writing](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view)
 * [SWGDE Glossary of Terms](https://drive.google.com/file/d/1ZZwOqgVOWo6qDeoJqv6VKafY2i1RJI2B/view)
