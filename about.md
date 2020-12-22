@@ -9,5 +9,5 @@ I am a Professor of Cyber Forensics & Cybersecurity @ [Marshall University](http
 # Follow Me
 * [Research Page](http://science.marshall.edu/brunty11)
 * [Twitter](https://www.twitter.com/joshbrunty)
-* [Marshall CFS Twitter](https://www.twitter.com/marshallucfs)
+* [Marshall Cyber Forensics & Security Twitter](https://www.twitter.com/marshallu_cfs)
 * [LinkedIn](https://www.linkedin.com/in/joshbrunty)
