@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Writing DFIR Reports: A Primer
+title: Writing DFIR Reports- A Primer
 tags: reporting report writing DFIR casenotes
 author: rms
 key: anything
