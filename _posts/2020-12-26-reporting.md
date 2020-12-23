@@ -97,9 +97,9 @@ this section outlines spcifically what are you being asked to do. You will inclu
 This is what you did, what you did it with (including make, model, and version of software, tools, etc.). This section is very important, as you must detail your interaction with the digital evidence and the steps taken to preserve and forensically acquire the evidence. Any additional steps that you take (e.g. forensically wiping storage/examination media, utlizing bootloaders in mobile acquisition, etc.) should be notated in this section of your report. Remember, this section of your report is usually where you as the examiner/analyst came into contact with the digital evidence and thoroughly documenting what you have done is very important to the integrity of the digital evidence and your chain of custody.
 
 **Example #1: Mobile Device Forensics Examination**
-*1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
-*2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
-*3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
+* *1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
+* *2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
+* *3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
 
 * 1) *Cellebrite Physical Analyzer v.7.13 (build 6600)*
 * 2) *Magnet Axiom v.4.16*
@@ -116,7 +116,7 @@ The report should be most detailed section of your investigation. You will inclu
 ## **Other Considerations**
 
 ### Appendices
-Good appendices can make or break a good report. It's a good rule of thumb is to reserve exhibits A and B for my CV and Evidence Chain of Custody, respectively.  Certainly not necessary, but it makes it so I always remember to include them in my reports. You will need to include a PDF copy of any automated, tool-generated reports in your appendices as well. A very good practice when you are including your evidence into your report is to include hyperlinks to exhibits/figures/tables etc. Make sure you test and validate that the hyperlinks work properly so when your report is being reviewed, the reader can navigate easily to the evidence that you are including in your report.
+Good appendices can make or break a good report. It's a good rule of thumb is to reserve exhibits A and B for your CV and Evidence Chain of Custody, respectively.  Certainly not necessary, but it makes it so you always remember to include them in my reports *(and work from the same template)*. You will need to include a PDF copy of any automated, tool-generated reports (i.e. Cellebrite, Axiom, Autopsy) in your appendices as well. A very good practice when you are including your evidence into your report is to include hyperlinks to exhibits/figures/tables etc. Make sure you test and validate that the hyperlinks work properly so when your report is being reviewed, the reader can navigate easily to the evidence that you are including in your report.
 
 ### Formatting 
 Reports should include a page number with a total page accountability (*i.e. 6 of 7, 7 of 7*). This will ensure that if a page is removed or separated from your report that it will be easy to spot if that were to occur. A common header and/or footer with distinguishings such as an agency logo, address, examiner name, etc. is also good practice. A title similar to “Report of Examination,” to provide an immediate and accurate identification of the information being provided should also be included. [SWGDE](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view) also defines General information elements which include:
