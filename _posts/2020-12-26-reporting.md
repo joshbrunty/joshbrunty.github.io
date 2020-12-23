@@ -99,12 +99,12 @@ This is what you did, what you did it with (including make, model, and version o
 **Example #1: Mobile Device Forensics Examination**
 * *1) On today's date I began the forensic acquisition process of the Google Android device. Prior to acquisition of the mobile device, the analyst photographed the device, documenting any identifiers (e.g., make, model, serial #), unique markings, visible damage, etc. while maintaining chain of custody.*
 * *2) After completing the forensic acquisition of the mobile device via the Android Debug Bridge (ADB) the analyst then analyzed the extraction with forensic tools*
-* *3)The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
+* *3) The analyst used the following tools for forensic analysis, which are licensed to this examiner:*
 
-* 1) *Cellebrite Physical Analyzer v.7.13 (build 6600)*
-* 2) *Magnet Axiom v.4.16*
-* 3) *Oxygen Forensic Detective v.3.16 (build 3383)*
-* 4) *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06*
+  * 1) *Cellebrite Physical Analyzer v.7.13 (build 6600)*
+  * 2) *Magnet Axiom v.4.16*
+  * 3) *Oxygen Forensic Detective v.3.16 (build 3383)*
+  * 4) *Android Logs, Events, And Protobuf Parser-ALEAPP v.1.06*
 
 **Example #2: Network Forensics Examination**
 * **Analysis #1**- *Initial Inspection: Upon initial download of the file.pcap file onto the desktop of the forensic machine being utilized for investigation, the file was opened using Wireshark v.2.13. Steps were taken to ensure the time and date of packets contained on the file were set to UTC time prior to determining the range of packet captures. The analyst determined the packets to have ranged from 01:51:07 on 07/22/2008 (**Figure 1**) until 06:13:47 on 07/22/2008 (**Figure 2**). The total number of packets contained in the file were then determined by the analyst to be 95,175 packets.*
