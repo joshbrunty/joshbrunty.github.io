@@ -32,14 +32,14 @@ There are dozens of models that describe the digital forensic process and how to
 
 ![Image](/images/reporting/examsteps.jpg)
 
-**Collection:** Data are identified, labeled, recorded, and acquired from all of the possible sources of relevant data, using procedures that preserve the integrity of the data. Data should be collected in a timely manner to avoid the loss of dynamic data, such as a list of current network connections, and the data collected in cell phones, PDAs, and other battery-powered devices.
+* **Collection:** Data are identified, labeled, recorded, and acquired from all of the possible sources of relevant data, using procedures that preserve the integrity of the data. Data should be collected in a timely manner to avoid the loss of dynamic data, such as a list of current network connections, and the data collected in cell phones, PDAs, and other battery-powered devices.
 
-**Examination:** The data that are collected should be examined using a combination of automated and manual methods to assess and extract data of particular interest for the specific situation, while preserving the integrity of the data.
+* **Examination:** The data that are collected should be examined using a combination of automated and manual methods to assess and extract data of particular interest for the specific situation, while preserving the integrity of the data.
 
-**Analysis:** The results of the examination should be analyzed, using well-documented methods and techniques, to derive useful information that addresses the
+* **Analysis:** The results of the examination should be analyzed, using well-documented methods and techniques, to derive useful information that addresses the
 questions that were the impetus for the collection and examination.
 
-**Reporting:** The results of the analysis should be reported. Items to be reported may include the following: a description of the actions employed; an explanation of how tools and procedures were selected; a determination of any other actions that should be performed, such as forensic examination of additional data sources, securing identified vulnerabilities, and improving existing security controls; and recommendations for improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. 
+* **Reporting:** The results of the analysis should be reported. Items to be reported may include the following: a description of the actions employed; an explanation of how tools and procedures were selected; a determination of any other actions that should be performed, such as forensic examination of additional data sources, securing identified vulnerabilities, and improving existing security controls; and recommendations for improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. 
 
 Clearly the last stage focuses on the *Reporting* phase of the analysis, which is the major focus of this writing. But before we move to this phase I want to stop and discuss the second and last important phase leading to an effective report: drafting good casenotes/benchnotes.
 
