@@ -8,41 +8,38 @@ class: success error shadow
 article_header:
   type: cover
   image:
-    src: 
+    src: /images/reporting/lumberg-dfir.jpg
     
 ---
 ## **Prologue**
 
 ![Image](/images/reporting/lumberg-dfir.jpg){:.shadow}
 
-***"How do I write a DFIR report?"***
+***"How do I write a good DFIR report?"*** -Literally Everyone at some point
 
-You wouldn't believe how many times that question gets asked out of me here at Marshall University (and sometimes in the DFIR community). Year after year I've given the same answer; a list full of outdated links and a verbal "laundry list" collection of tidbits and links I've collected and have seen work over my 15+ years of working in this community. As digital forensic examiners/analysts, it's a given that we must report and present our findings on a very technical discipline in a simplistic manner. I always tell students that everything should be explained to *"make sense to "your 80 old grandmother."* I think most all of us can relate to that funny, yet true symbolism. However, that *grandmother* may be a supervisor, client, attorney, etc. or even to a judge and jury who will read and interpret your report after it has been cross-examined. Are you prepared to explain your findings? When the case goes to trial and you are called upon to testify a year or more in the future will you be able to remember the case based simply from the details you included in your digital forensic report? Better yet, will someone else be able to make sense of (or even validate) my findings if I'm not around to explain them? *What templates do I use? What headings do I include? How do I list figures?* The list can go on and on and on. I'll do my best to address these (and a host of other things) in this article. 
+You wouldn't believe how many times that question gets asked out of me here at Marshall University (and sometimes in the DFIR community). Year after year I've given the same answer: a list full of outdated links and a verbal "laundry list" collection of tidbits and othe documents I've collected and have seen work over my 15+ years of working in this community. Hence, the motivation to put together a compendium of resources and "lessons learned" into a single, living resource per-se. As digital forensic examiners/analysts, it's a given that we must report and present our findings on a very technical discipline in a simplistic manner. I always tell students and colleagues that everything should be explained to *"make sense to "your 80 old grandmother."* I think most all of us can relate to that funny, yet true symbolism. However, that *grandmother* may be a supervisor, client, attorney, etc. or even to a judge and jury who will read and interpret your report after it has been cross-examined. Are you prepared to explain your highly technical findings to a lay audience? When the case goes to trial and you are called upon to testify a year or more in the future will you be able to remember the case based simply from the details you included in your digital forensic report? Better yet, will someone else be able to make sense of (or even validate) my findings if I'm not around to explain them? *What templates do I use? What headings do I include? How do I list figures?* The list can go on and on and on. I'll do my best to address these (and a host of other things) in this article. 
 
 Without wasting any time, let's tackle the first, and most important, question on the list: *"Where do I start?"* For me a good report ALWAYS starts with two important phases: 
-* 1) good planning and preparation and 
-* 2) casenotes/benchnotes.
+* 1) good planning and preparation 
+* 2) good casenotes/benchnotes
 
 ## **Planning & Preparation**
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
-Years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone, laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords and suspect names to search for pertaining the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. Even when drafting the report, the detective was STILL giving me keywords. A process that should have taken weeks took months and hours of fruitless searches. The report took *forever* to draft because of the complexity of the searches and steps performed. At the end of this I was asking myself "What if better planning had been executed?" Later in my career I sought to answer these questions *BEFORE* I began the case rather than after. This better planning, in turn, led to better reports. 
+As a young examiner years ago I was working a case that involved a plethora of stolen items: guns, money, and a dog (yes a dog). The detective on the case brought me a phone, laptop, and thumb drive that they had seized as part of the case. Multiple times throughout the course of that case, the detective continued to supply me with *intelligence* which was nothing more than additional keywords and suspect names to search for pertaining the case. This process repeated itself it least 4-5 more times over the course of the next 3 months. Even when drafting the report, the detective was STILL giving me keywords. A process that should have taken weeks took months and hours of fruitless searches. The report took *forever* to draft because of the complexity of the searches and steps performed. At the end of this I was asking myself "What if better planning had been executed?" Later in my career I sought to answer these questions *BEFORE* I began the case rather than after. This better planning, in turn, led to better reports. 
 
-There are dozens of models that describe the digital forensic process and how to approach this planning. A good read that approaches this process head-on is the article written by Mark Pollitt titled [*The key to forensic success: examination planning is a key determinant of efficient and effective digital forensics*](https://doi.org/10.1016/B978-0-12-804526-8.00002-2). In this paper, Mark approaches examination planning through using the [National Institute of Standards and Technology (NIST) SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf), which describes the process in four (4) stages, defined as follows:
+There are dozens of models that describe the digital forensic process and how to approach this planning. A good read that approaches this process head-on is the article written by Dr. Mark Pollitt (one of my early graduate school and career mentors) titled [*The key to forensic success: examination planning is a key determinant of efficient and effective digital forensics*](https://doi.org/10.1016/B978-0-12-804526-8.00002-2). In this paper, Dr. Pollitt approaches examination planning through using the [National Institute of Standards and Technology (NIST) SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf), which describes the process in four (4) stages, defined as follows:
 
 ![Image](/images/reporting/examsteps.jpg)
 
-**Collection:** Data are identified, labeled, recorded, and acquired from all of the possible sources of relevant data, using procedures that preserve the integrity of the
-data. Data should be collected in a timely manner to avoid the loss of dynamic data, such as a list of current network connections, and the data collected in cell phones, PDAs, and other battery-powered devices.
+**Collection:** Data are identified, labeled, recorded, and acquired from all of the possible sources of relevant data, using procedures that preserve the integrity of the data. Data should be collected in a timely manner to avoid the loss of dynamic data, such as a list of current network connections, and the data collected in cell phones, PDAs, and other battery-powered devices.
 
-**Examination:** The data that are collected should be examined using a combination of automated and manual methods to assess and extract data of particular interest for
-the specific situation, while preserving the integrity of the data.
+**Examination:** The data that are collected should be examined using a combination of automated and manual methods to assess and extract data of particular interest for the specific situation, while preserving the integrity of the data.
 
 **Analysis:** The results of the examination should be analyzed, using well-documented methods and techniques, to derive useful information that addresses the
 questions that were the impetus for the collection and examination.
 
-**Reporting:** The results of the analysis should be reported. Items to be reported may include the following: a description of the actions employed; an explanation of
-how tools and procedures were selected; a determination of any other actions that should be performed, such as forensic examination of additional data sources, securing identified vulnerabilities, and improving existing security controls; and recommendations for improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. 
+**Reporting:** The results of the analysis should be reported. Items to be reported may include the following: a description of the actions employed; an explanation of how tools and procedures were selected; a determination of any other actions that should be performed, such as forensic examination of additional data sources, securing identified vulnerabilities, and improving existing security controls; and recommendations for improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. 
 
 Clearly the last stage focuses on the *Reporting* phase of the analysis, which is the major focus of this writing. But before we move to this phase I want to stop and discuss the second and last important phase leading to an effective report: drafting good casenotes/benchnotes.
 
@@ -57,15 +54,15 @@ Well, that answer depends. In all my years I never really had a clear, concrete 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This might be a somewhat naive question but this question has stumped me for years: “Are forensic bench/case notes discoverable in court?”</p>&mdash; Josh Brunty (@joshbrunty) <a href="https://twitter.com/joshbrunty/status/1335732128705728512?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-As you can see there is a consensus on the the answer: *"Yes."* Long story short, case notes *are* discoverable under the Federal Rules of Evidence. Although there are loopholes in the court such as claiming the notes as attorney work product or just not turning the notes in with the final report altogether. That all said, it's still important to keep detailed case notes not just for court discovery, but to refresh your own memory if, and when you get to drafting the final report.
+As you can see there is a consensus on the the answer: *"Yes."* Long story short, case notes *are* discoverable under the Federal Rules of Criminal/Civil Procedure. Although there are loopholes in the court such as: claiming the notes as attorney work product or just not turning the notes in with the final report altogether. That all said, it's still important to keep detailed case notes not just for court discovery, but to refresh your own memory if, and when you get to drafting the final report.
 
 ***What software and/or templates do I use to keep such notes?***
 
-Good question! I'm providing one of my own Microsoft Word examples *HERE*. There are also paid and open-source applications out there to manage case notes. [Forensic Notes](https://www.forensicnotes.com/) is one such option. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
+Good question! There are both paid and open-source applications out there to manage case notes. Some are tailored to forensics, some are not. [Forensic Notes](https://www.forensicnotes.com/) is one such option for DFIR. Forensic Notes stores all notes, images, and attachments in a timestamped read-only, PDF format to protect the integrity and admissibility of evidence. 
 
 <div>{%- include extensions/youtube.html id='SR_e0eAjXyw' -%}</div>
 
-An example Case Notes PDF report can be downloaded [HERE](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf). One of the things I really like & appreciate about Forensic Notes is that it compels DFIR examiners to carefully and contemporaneously take notes in a given investigation. Keep in mind, MOST of the work that DFIR examiners ends up in court and/or legal proceedings in some way, shape or form. Investigators need the ability to document complex investigations and not worry about losing or misplacing critical notes and documents essential for full disclosure if and when such cases reach litigation. 
+An example Case Notes PDF report can be downloaded [HERE](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf). One of the things I really like & appreciate about Forensic Notes is that it compels DFIR examiners to carefully and contemporaneously take notes in a given investigation. Keep in mind, MOST of the work that DFIR examiners ends up in court and/or legal proceedings in some way, shape or form. Investigators need the ability to document complex investigations and not worry about losing or misplacing critical notes and documents essential for full disclosure if and when such cases reach litigation. Although Word, OneNote, etc. exists and will do the job they aren't really tailored with auditing capabilities and other bells and whistles that come in handy in a digital forensics caseflow. 
 
 Now that we've established our casenotes it's now time to move to the actual Forensic Report. 
 
@@ -144,7 +141,7 @@ As you can see the responses varied all over the place, but the general consensu
 
 ## **Conclusion**
 
-## **Additional Links**
+## **Relevant Links**
 * [Forensic Notes Software](https://www.forensicnotes.com/forensic-case-notes/)
 * [SANS Intro to Report Writing for Digital Forensics](https://www.sans.org/blog/intro-to-report-writing-for-digital-forensics/) 
 * [SWGDE Requirements for Report Writing](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view)
@@ -152,5 +149,6 @@ As you can see the responses varied all over the place, but the general consensu
 * [ASTM Standard E2916](https://www.astm.org/Standards/E2916.htm)
 * [NIST OSAC Lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon)
 * [NIST SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf)
+* [Planning: The key to forensic success- Dr. Mark Pollitt](https://doi.org/10.1016/B978-0-12-804526-8.00002-2)
 
 <!--more-->
