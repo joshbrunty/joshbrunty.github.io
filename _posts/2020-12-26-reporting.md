@@ -74,11 +74,11 @@ The purpose of the Forensic Report is simply to tell the story of what the prese
 
 ```mermaid
 graph TD;
-    A 1. This is what I was asked to do.-->B;
-    B 2. This is why I am qualified to do it.-->C;
-    C 3. This is what I did.-->D;
-    D 4. This is what I found.-->E;
-    E 5. These are my opinions/conclusions.
+    A [1. This is what I was asked to do.]-->B;
+    B [2. This is why I am qualified to do it.]-->C;
+    C [3. This is what I did.]-->D;
+    D [4. This is what I found.]-->E;
+    E [5. These are my opinions/conclusions.]
 ```
 
 There really isn't a de-facto standard or format per-se. Formatting and layout options are up to the examiner/analyst, or they may be defined by organizational policies or jurisdictional court rules. The report may include something similar or a slightly different flavor to the following: 
