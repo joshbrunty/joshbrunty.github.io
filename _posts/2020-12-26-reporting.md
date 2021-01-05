@@ -5,6 +5,7 @@ tags: reporting report writing DFIR casenotes
 author: rms
 key: anything
 class: success error shadow
+mermaid: true
 article_header:
   type: cover
   image:
@@ -69,7 +70,18 @@ Now that we've established our casenotes it's now time to move to the actual For
 ## The Forensic Report
 Digital and multimedia evidence, as well as the tools, techniques, and methodologies used in an examination, are subject to challenge in a court of law or other formal proceedings. Proper documentation is essential in providing individuals the ability to reproduce the forensic process and the results. [The Scientific Working Group on Digital Evidence (SWGDE)](https://drive.google.com/file/d/1_O1WxWa1FTkOqDPJ3n1aul5VXkGlTAZh/view) states that *Reporting is the process of preparing a summary of steps taken during the examination of digital media.* A thorough examination report is written using documentation collected by the examiner, including photographs, drawings, case-notes, tool-generated content, etc. Many forensic tools come with built-in reporting functionality that is specific to that tool’s actions and results, but does not typically document the full scope of the examination. Tool reports may be considered supporting documentation to the examination report or referenced as an appendix. 
 
-The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. There really is no de-facto format and/or reporting standard per-se. Formatting and layout options are up to the examiner/analyst, or they may be defined by organizational policies or jurisdictional court rules. The report may include something similar or a slightly different flavor to the following: 
+The purpose of the Forensic Report is simply to tell the story of what the presence or absence of the digital artifact indicates, regardless, if it is inculpatory or exculpatory in nature. Reports generally follow a logical flow:
+
+```mermaid
+graph TD;
+    1. This is what I was asked to do.-->2.;
+    2. This is why I am qualified to do it.-->3.;
+    3. This is what I did.-->4.;
+    4. This is what I found.-->5.;
+    5. These are my opinions/conclusions.
+```
+
+There really isn't a de-facto standard or format per-se. Formatting and layout options are up to the examiner/analyst, or they may be defined by organizational policies or jurisdictional court rules. The report may include something similar or a slightly different flavor to the following: 
 * Title Page
 * Table of Contents
 * Overview/Case/Executive Summary
