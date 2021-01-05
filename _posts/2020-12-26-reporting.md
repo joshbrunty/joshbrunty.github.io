@@ -167,6 +167,7 @@ This document is not intended to be a de-facto standard or a "This is how it's g
 * [ASTM Standard E2916](https://www.astm.org/Standards/E2916.htm)
 * [NIST OSAC Lexicon](https://www.nist.gov/organization-scientific-area-committees-forensic-science/osac-lexicon)
 * [NIST SP 800-86](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-86.pdf)
-* [Planning: The key to forensic success- Dr. Mark Pollitt](https://doi.org/10.1016/B978-0-12-804526-8.00002-2)
+* [Book- Planning: The key to forensic success- Dr. Mark Pollitt](https://doi.org/10.1016/B978-0-12-804526-8.00002-2)
+* [Book- SEAK's How to Write An Expert Witness Report](https://store.seak.com/how-to-write-an-expert-witness-report/)
 
 <!--more-->
