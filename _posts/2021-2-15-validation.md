@@ -13,13 +13,20 @@ article_header:
 ---
 
 ## **Prologue**
-Although a digital forensic examiner may encounter many different encoding schemes in their daily casework, one of the most popular is that of Base64. Base64 is often applied to data being transported from one system to another, and is a popular encoding format because it ensures that a device (and it's associated oeprating system) at the opposite end can properly interpret the data being transmitted. In many cases we find messages stored by 3rd party applications, data BLOBs within SQLite databases, and even login usernames/passwords utilizing Base64! So it goes without saying that digital forensic examiners, especially those tasked with investigating mobile devices, know how the basic foundations of Base64. Most forensic software and/or analytical programs support the decoding of Base64 in addition to various other encoding schemes. In the event that a program doesn't support Base64 decoding, there are many web-based applications available to choose (we'll discuss those at the end of this post).
+Still need to write one up
 
 ## **Introduction**
+With the field of digital forensics growing at an almost warp-like speed, there are many issues out there that can disrupt and discredit even the most experienced forensic examiner.  One of the issues that continue to be of utmost importance is the validation of the technology and software associated with performing a digital forensic examination.  The science of digital forensics is founded on the principles of repeatable processes and quality evidence.  Knowing how to design and properly maintain a good validation process is a key requirement for any digital forensic examiner.   This post will attempt to outline the issues faced when drafting tool and software validations, the legal standards that should be followed when drafting validations, and a quick overview of what should be included in every validation. 
 
-**Base64** is a group of binary-to-text encoding schemes that represent binary data (more specifically a sequence of 8-bit bytes) in an ASCII string format by translating it into a radix-64 representation. The term Base64 originates from a specific MIME content transfer encoding. Each non-final Base64 digit represents exactly 6 bits of data. Three 8-bit bytes (i.e., a  total of 24 bits) can therefore be represented by four 6-bit Base64 digits.
+## **Setting the Standard: Standards and Legal Baselines for Software/Tool Validation**
+According to the National Institute of Standards and Technology (NIST), test results must be repeatable and reproducible to be considered admissible as electronic evidence.  Digital forensics test results are repeatable when the same results are obtained using the same methods in the same testing environment.  Digital forensics test results are reproducible when the same when the same test results are obtained using the same method in a different testing environment (different mobile phone, hard drive, and so on).   NIST specifically defines these terms as follows: 
 
-Characters of the Base64 alphabet can be grouped into four groups:
+`Repeatability:`{:.success}
+refers to obtaining the same results when using the same method on identical test items in the same laboratory by the same operator using the same equipment within short intervals of time. 
+`Reproduciblity:`{:.success}
+refers to obtaining the same results being obtained when using the same method on identical test items in different laboratories with different operators utilizing different equipment.     
+
+----stop here
 
 * **Uppercase letters** (indices 0-25): *ABCDEFGHIJKLMNOPQRSTUVWXYZ*
 
