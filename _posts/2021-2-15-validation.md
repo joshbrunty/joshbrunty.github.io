@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Validation of Forensic Tools & Software: A Quick Guide for the DFIR Examiner
-tags: dfir validation
+title: Validation of Forensic Tools- A Quick Guide for the DFIR Examiner
+tags: DFIR validation
 author: rms
 key: anything
 class: success error shadow
