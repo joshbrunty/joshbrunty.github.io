@@ -14,7 +14,7 @@ article_header:
 ---
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
-![Image](/images/MGA/imposter.png){:.shadow}
+![Image](/images/MGA/imposter.png)
 
 As a begin this new doctoral journey at Middle Georgia State this week I can honestly say I feel the furthest from a "professional" than I have since I have graduated with my MS degree nearly 12 years ago. Some call it imposter syndrome, others call it anxiety. I'm not sure how to define it to be honest with you. All I know is that it is a real and legit feeling. However, that may not be so bad.
 
