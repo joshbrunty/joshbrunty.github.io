@@ -32,7 +32,4 @@ Simply put, I want to be a better teacher and researcher. Not just for myself bu
 
 Here's to the start of my doctorate journey at Middle Georgia State! Go Knights!  
 
-
-
-
 <!--more-->
