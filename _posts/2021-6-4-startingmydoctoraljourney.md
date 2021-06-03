@@ -5,7 +5,6 @@ cover: https://joshbrunty.github.io/images/MGA/imposter.png
 cover_size: sm
 tags: MGA DSCIT ITEC7000
 author: rms
-
 ---
 
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
