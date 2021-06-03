@@ -1,17 +1,13 @@
 ---
-layout: article
 title: Starting My Doctoral Journey
+excerpt: Starting My Doctoral Journey 
+cover: /images/MGA/imposter.png
+cover_size: sm
 tags: MGA DSCIT ITEC7000
 author: rms
-key: anything
-class: success error shadow
-mermaid: true
-article_header:
-  type: cover
-  image:
-    src:
-    
+
 ---
+
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
 ![Image](/images/MGA/imposter.png)
