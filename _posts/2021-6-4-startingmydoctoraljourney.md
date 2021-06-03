@@ -1,7 +1,7 @@
 ---
 title: Starting My Doctoral Journey
-excerpt: Starting My Doctoral Journey 
-cover: /images/MGA/imposter.png
+excerpt:  Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable. Here's to the beginning of my Doctorate of Science in IT journey
+cover: https://joshbrunty.github.io/images/MGA/imposter.png
 cover_size: sm
 tags: MGA DSCIT ITEC7000
 author: rms
