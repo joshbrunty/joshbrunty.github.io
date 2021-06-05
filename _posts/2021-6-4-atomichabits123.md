@@ -7,6 +7,8 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
+![Image](/images/MGA/atomichabits.jpg)
+
 I was recently tasked in doctoral seminar to read the book [Atomic Habits](https://books.google.com/books/about/Atomic_Habits.html?id=fFCjDQAAQBAJ) by James Clear. I'm sure many of you, like myself, struggle to build and balance a professional life that sometimes drags you in more ways that you are capable of. Thus, you sometimes find yourself drowning in a list of project deadlines and due dates, unfinished research, and colleagues and students demanding answers to projects that you've committed to. This book addresses these "atomic" or "small" changes that one can make to achieve these small goals and, thus, achieve more.
 
 Although this blog post will be limited to the first 3 chapters of text, my thoughts and reflections will hinge upon the overarching themes of the text itself.
