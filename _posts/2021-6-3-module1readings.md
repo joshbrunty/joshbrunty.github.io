@@ -7,12 +7,12 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
-As part of my summer doctoral seminar I was tasked with the following readings:
+As part of my summer doctoral seminar (ITEC 7000) I was tasked with the following readings:
 
-*Doctoral Students’ Learning Success in Online-Based Leadership Programs: Intersection with Technological and Relational Factors* **(Lee, Chang, & Bryan, 2020)**
-*This Group Is Vital”: Adult Peers in Community for Support and Learning* **(Cherrstrom et al., 2018)**
-*The Road to a Doctoral Degree: Co-Travelers through a Perilous Passage* **(Hadjioannou, et al., 2007)**
-*Networking on the Network: A Guide to Professional Skills for PhD Students* **(Agre, 2005)**
+* *Doctoral Students’ Learning Success in Online-Based Leadership Programs: Intersection with Technological and Relational Factors* **(Lee, Chang, & Bryan, 2020)**
+* *This Group Is Vital”: Adult Peers in Community for Support and Learning* **(Cherrstrom et al., 2018)**
+* *The Road to a Doctoral Degree: Co-Travelers through a Perilous Passage* **(Hadjioannou, et al., 2007)**
+* *Networking on the Network: A Guide to Professional Skills for PhD Students* **(Agre, 2005)**
 
 For those of us in IT, especially if you considering tackling an advanced doctorate/masters degree, these readings are well worth your time as they not only address and ease many of the issues that have long since plagued PhD programs, but they also address specific ideas that can make the arduous task of surviving the doctorate process a little easier. For myself, the biggest deterrent from PhD programs was not the curriculum per-se, not even the work. It was the fear of being caught in the proverbial abyss of dissertation. The unguided rigor of trying to hit a moving target while being blindfolded. The fear of placing the last step of graduation upon a committee that might find my work to be subpar upon completion, and dissolving years of work and effort because I couldn't get a quality thesis/dissertation out the door. As a new doctorate student these fears became even more real when I received my acceptance letter for the program. The feeling of "can I do this alone" and "can I do this remotely" were present and were real. However, when reading these articles I found that my thoughts and fears were not isolated and limited to just me, and I started to feel better that there is indeed proven research out there that suggests that student success is attainable. Although there are hundreds of thoughts and themes I could talk about that exist across these 4 articles, I want to distill them down to a single, and overarching theme, which is simply the effect of relational factors on PhD's. Simply, each of these articles reinforced a common idea, a common theme. Relationships are critical and relationships do matter. During periods of stress (which is the essence of PhD and doctoral work) the building of relationships can help ease the burden. The idea that suffering is easier if one knows there are others suffering as well is something that can help, in my honest opinion.
 
