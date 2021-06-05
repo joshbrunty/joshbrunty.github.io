@@ -1,5 +1,5 @@
 ---
-title: ITEC Module 1 Readings
+title: ITEC 7000 Module 1 Readings
 excerpt:  Reflections and Thoughts on Module 1 Readings
 cover: 
 cover_size: sm
@@ -26,4 +26,4 @@ The fourth (and final article) **(Agre, 2005)** was more of a "how-to guide" for
 
 To summarize. relational factors (RF) are the seemingly the most influential and beneficial thing that a student can build during their time as an advanced student. Networking and establishing relationships on a one-to-one level creates a sense of community which ,in turn, invests and embeds a student more deeply not only into their curriculum, but also their peers. 
 
-<div>{%- include extensions/youtube.html id='Ac-fJfql4zw' -%}</div>
+<div>{%- include extensions/youtube.html id='VXO2CyAAkA4' -%}</div>
