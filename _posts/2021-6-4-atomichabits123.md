@@ -7,13 +7,13 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
-![Image](/images/MGA/atomichabits.jpg)
-
 I was recently tasked in doctoral seminar to read the book [Atomic Habits](https://books.google.com/books/about/Atomic_Habits.html?id=fFCjDQAAQBAJ) by James Clear. I'm sure many of you, like myself, struggle to build and balance a professional life that sometimes drags you in more ways that you are capable of. Thus, you sometimes find yourself drowning in a list of project deadlines and due dates, unfinished research, and colleagues and students demanding answers to projects that you've committed to. This book addresses these "atomic" or "small" changes that one can make to achieve these small goals and, thus, achieve more.
 
 Although this blog post will be limited to the first 3 chapters of text, my thoughts and reflections will hinge upon the overarching themes of the text itself.
 
 ***A habit is a routine or behavior that is performed regularly- and in many cases, automatically.*** 
+
+![Image](/images/MGA/atomichabits.jpg)
 
 In the first chapter Clear lays out the fundamental thoughts of his book: changing habits. He does so by introducing a four step model of habits: cue, craving, response, and reward. habits are the compound interest of self-improvement. Getting 1-percent better everyday counts for a lot in the long-run, Clear iterates. This reminds me of the "Rome wasn't built in a day" logic, where compounding small changes often appear to make no difference until a critical threshold is is crossed. Like atoms as a building block of larger molecules, atomic habits are the building blocks of remarkable results. Clear also refers to this as the "aggregation of marginal gains"
 One notable instance of this "aggregation of marginal gains" that Clear refers to is the successful rise of the British cycling team in the early 2000's. Up until the hiring of Dave Brailsford as Performance Director in 2003. Up until 2003, the Brits had never produced a Tour de France winner, nor had they fared well in Olympic competition. Brailsford's philosophy hinged in search for, and improving, tiny margins of gains in which he referred to as the "aggregation of marginal gains." This included small details such as: putting rubbing alcohol on tires to improve traction, cyclists wearing heated gear to improve muscle performance, to even testing fabrics which were more dynamic. In the following 10 years from 2007-2017, British cyclists won 178 world championships, 66 gold medals, and 5 Tour De France victories. The small improvements, argues Clear, compounded to these remarkable results. This process, referred to as "compounding" can lead to positive results. Positive compounding can be productivity, knowledge, and even relationships. People reflect your behavior back to you so compounding "niceness" and promoting good relationships will result in stronger connections over time.
