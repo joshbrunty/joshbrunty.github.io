@@ -28,3 +28,5 @@ Many times in both my undergraduate and graduate career, I would take the shortc
 
 ## Conclusion
 Success is important. Simply put, the desire to learn and succeed in this doctorate program is very high for me. I am fully ready to enculturate myself into a strict regimen of learning and academic research to attain the goal of being a doctor. It's my desire to gain competence, integrate myself in with the research interests of my professors, and be a valuable classmate to my peers in terms of support and groupthink. Being a good student and classmate are two motivations that will push me to this doctorate goal. I am confident of that. 
+
+<div>{%- include extensions/youtube.html id='49Ougxe7T4E' -%}</div>
