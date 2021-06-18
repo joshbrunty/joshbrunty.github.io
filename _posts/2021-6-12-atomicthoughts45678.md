@@ -7,13 +7,10 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
-***A habit is a routine or behavior that is performed regularly- and in many cases, automatically.*** 
-
+<div>{%- include extensions/youtube.html id='WDX8-rnoDtA' -%}</div>
 
 ### Chapter 4- The Man Who Didn't Look Right
 Chapter 4 focuses on creating *cues*. With enough practice, your brain will pickup on the cues that predict certain outcomes without consciously thinking about it. One such example that Clear refers to is the Japanese rail conductor, in which they verbalize and point to each action that they perform. This is referred to as *pointing and calling* or *verbalizing your actions*. This allows us to raise actions from the unconscious to the conscious memory. This verbalization can allow us to create an awareness of our good and bad habits. This exceptionally hits home not just in a doctorate journey, but in the IT field as well. Both of these (at least for me) are essentially task-driven elements of my life. The more I procrastinate, the more I get behind. The more I get behind, the more that is forgotten and/or dropped. Thus, creating a habit scorecard, as Clear suggests, is a good template to rank my behaviors and focus on changing or eliminating bad habits in the process. 
-
-<div>{%- include extensions/youtube.html id='WDX8-rnoDtA' -%}</div>
 
 ### Chapter 5- The Best Way to Start a New habit
 Chapter 5 begins with what is defined as the *implementation intention* which is essentially creating a plan of when and where to act rather than just planning the action itself. The book describes an exercise study where exercise was more likely when an implementation intention (or plan) was set. I feel that this is critical for doctorate students like myself, as an endless pit of journal articles and book chapters might be unmanageable unless an implementation plan is set. The book suggests that many who don't follow through with their habits lack *clarity* and not *motivation*. I can see this as being true as tackling a pile of academic work is easy to get motivated for (at least for me it is). The issue I commonly run into is implementing such work into a seemingly busy schedule. Clear states that to change these habits one must implement the 1st Law of Behavior Change: *Make it Obvious*. One such way to do this is to perform what is referred to as *habit-stacking* or in other words, stacking a daily habit on top of another. As I thought on one such way to habit-stack in my doctorate curriculum, I focused on journaling/blogging as a way to stack my habits. My career in digital forensics couses on sharing new/novel findings and forensic artifacts (such as artifacts from a new Android app) to colleagues within my community. One such failure of mine is that I consistently lack the discipline to publish blog postings pertaining to my research. Therefore I intend to habit-stack my doctorate readings and share them along with my technical blog-postings.
