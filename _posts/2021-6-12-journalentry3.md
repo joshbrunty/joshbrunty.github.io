@@ -1,6 +1,6 @@
 ---
-title: Starting My Doctorate Journey
-excerpt:  Starting my doctorate journey and fighting imposter syndrome (Journal Entry 1)
+title: Strategizing My Success & Rewards
+excerpt:  Strategizing on ways tocombine immediate rewards with long term rewards (Journal Entry 3)
 cover: https://joshbrunty.github.io/images/MGA/imposter.jpg
 cover_size: sm
 tags: MGA DSCIT ITEC7000
