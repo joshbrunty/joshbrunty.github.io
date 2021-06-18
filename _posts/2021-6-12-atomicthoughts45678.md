@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Atomic Habits (Chapters 4-8)
-excerpt: Thoughts On Atomic Habits Chapters 4-8 & Module 2 Readings (Journal Entry 1)
+excerpt: Thoughts On Atomic Habits Chapters 4-8 & Module 2 Readings (Journal Entry 2)
 cover: https://joshbrunty.github.io/images/MGA/atomichabits.jpg
 cover_size: sm
 tags: MGA DSCIT ITEC7000
