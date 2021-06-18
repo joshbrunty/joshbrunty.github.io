@@ -7,7 +7,7 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
-![Image](/images/MGA/group.jpg)
+![Image](/images/MGA/woodensuccess.jpg)
 
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
