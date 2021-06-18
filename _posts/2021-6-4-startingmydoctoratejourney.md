@@ -1,6 +1,6 @@
 ---
 title: Starting My Doctorate Journey
-excerpt:  Reflections of the beginning of my doctoral journey (Journal Entry #1)
+excerpt:  Journal Entry #1
 cover: https://joshbrunty.github.io/images/MGA/imposter.jpg
 cover_size: sm
 tags: MGA DSCIT ITEC7000
