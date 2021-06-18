@@ -36,9 +36,9 @@ For me the major takeaway during thisis that changing the environment is as esse
 
 For this module we were tasked with the following readings:
 
-###### Learning Networks and the Journey of “Becoming Doctor” (Barnacle & Mewburn, 2010)    
-###### Resilient Doctoral Students in California: A Reflective Study of the Relation Between Childhood Challenges and Academic Success (Bessy & Gonzalez, 2018). 
-###### Why Did I Drop Out? Former students’ recollections about their study process and factors related to leaving doctoral studies (Leijen et al., 2016).
+##### * Learning Networks and the Journey of “Becoming Doctor” (Barnacle & Mewburn, 2010)    
+##### * Resilient Doctoral Students in California: A Reflective Study of the Relation Between Childhood Challenges and Academic Success (Bessy & Gonzalez, 2018). 
+##### * Why Did I Drop Out? Former students’ recollections about their study process and factors related to leaving doctoral studies (Leijen et al., 2016).
 
 Each of these readings for me carried the common theme: navigating multiple responsibilities in addition to the rigor of PhD studies. Each of these articles portray the PhD student as an exceptionally busy person, generally having to juggle repsonsibiltiies such as family, career, and other tasks in lieu of their PhD studies. In *Bessey and Gonzalez's* research, they identified the 4'R's: relationship, relevance, rigor, and reflection being important facets of successful PhD students. Similarly, *Leijen et. al.* describe the same factors related to PhD persistence as: motivation, goal-directedness, positive self-concept, and well-being. Upon completion of the readings of this module, I cannot help but wonder that the most important habits to develop are those that develop strong research methodologies as it seemed that many of the failures of PhD students were those that did not feel equipped to carry-out the rigors of research, nor did they develop the relationships to take on such rigor. Developing habits where one feels competent, integrated, and valuable are, in my opinion, essential to experience success in any doctorate program. As doctoral students, I can see that not being inspired by your research and/or what you are learning to cause burnout and even dropout. Simply put, life continues to happen, regardless of how much work we have in a particular portion of our PhD journey. Developing not only resiliency to continue to push forward, regardless of the obstacle, is key to doctorate success and completion.
 
