@@ -1,5 +1,5 @@
 ---
-title: ITEC 7000 Module 1 Readings
+title: Reflections and Thoughts on Module 1 Readings
 excerpt:  Reflections and Thoughts on Module 1 Readings
 cover: 
 cover_size: sm
