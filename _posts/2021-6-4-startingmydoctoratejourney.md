@@ -1,6 +1,6 @@
 ---
 title: Starting My Doctorate Journey
-excerpt:  Reflections of the beginning of my Doctor of Science in Information Technology journey
+excerpt:  Reflections of the beginning of my doctoral journey (Journal Entry #1)
 cover: https://joshbrunty.github.io/images/MGA/imposter.jpg
 cover_size: sm
 tags: MGA DSCIT ITEC7000
@@ -11,7 +11,7 @@ author: rms
 
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
 
-As a begin this new doctoral journey at Middle Georgia State this week I can honestly say I feel the furthest from a "professional" than I have since I have graduated with my MS degree nearly 12 years ago. Some call it imposter syndrome, others call it anxiety. I'm not sure how to define it to be honest with you. All I know is that it is a real and legit feeling. However, that may not be so bad.
+As a begin this new doctor of science in information technology (DSCIT) journey at Middle Georgia State this week I can honestly say I feel the furthest from a "professional" than I have since I have graduated with my MS degree nearly 12 years ago. Some call it imposter syndrome, others call it anxiety. I'm not sure how to define it to be honest with you. All I know is that it is a real and legit feeling. However, that may not be so bad.
 
 I grew up in a small rural town in West Virginia. Salt Rock to be exact. Small community, small school, small town feeling. It was comfortable. Early on in in school I never worried about A's and B's or making a 4.0 GPA as I always knew that as long as I put in the work I'd get the grade I deserved. I learned as much as a grade school kid could learn. The teachers always made sure they poured more than just academics into both my classmates and myself. High school was no different. I graduated with a 4.0 and amongst the top of my class, but still never felt as if I accomplished anything. Still, imposter syndrome was at work.
 
