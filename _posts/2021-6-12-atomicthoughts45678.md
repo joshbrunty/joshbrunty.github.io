@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Atomic Habits (Chapters 4-8)
-excerpt: Journal Entry 1- Thoughts On James Clear's "Atomic Habits" Chapters 4-8 & Module 2 Readings
+excerpt: Thoughts On James Clear's "Atomic Habits" Chapters 4-8 & Module 2 Readings (Journal Entry #1)
 cover: https://joshbrunty.github.io/images/MGA/atomichabits.jpg
 cover_size: sm
 tags: MGA DSCIT ITEC7000
