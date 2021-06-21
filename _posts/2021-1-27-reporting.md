@@ -170,4 +170,8 @@ This document is not intended to be a de-facto standard or a "This is how it's g
 * [Book- Planning: The key to forensic success- Dr. Mark Pollitt](https://doi.org/10.1016/B978-0-12-804526-8.00002-2)
 * [Book- SEAK's How to Write An Expert Witness Report](https://store.seak.com/how-to-write-an-expert-witness-report/)
 
+## **Example Forensic Reports**
+[Example of an Expert Witness Report](https://www.academia.edu/12324822/Example_of_An_Expert_Witness_Digital_forensics_Report)
+[Forensic Benchnotes Example](https://www.forensicnotes.com/wp-content/uploads/2018/12/forensic_notebook_exhibit-1-iphone-6-white.pdf)
+
 <!--more-->
