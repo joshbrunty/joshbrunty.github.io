@@ -23,5 +23,3 @@ The two-minute rule is quite simple: scale any habit down into a two-minute vers
 
 ### Chapter 14- How to Make Good habits Inevitable and Bad Habits Impossible
 This chapter focuses around *commitment devices* or choices that you make in the present that controls your actions in the future. The ultimate way to lock in future behavior is to automate your habits. By utilizing commitment devices, strategic onetime decisions, and even technology, one can create an environment of inevitability—a space where good habits are not just an outcome you hope for, but an outcome that is virtually guaranteed. For me, habits don’t come easily. In fact, I sometimes shroud bad habits in what I refer to as *”multi-tasking”* Feeling the need to check Twitter or fallback on unneeded technology (like playing around on the computer). These are things ultimately that I must create my commitment devices on.
-
-![image](https://user-images.githubusercontent.com/13261341/123162655-de71e880-d43e-11eb-9884-7ce15adec4f1.png)
