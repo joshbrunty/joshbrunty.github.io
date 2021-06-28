@@ -7,7 +7,7 @@ tags: MGA DSCIT ITEC7000
 author: rms
 ---
 
-<div>{%- include extensions/youtube.html id='WDX8-rnoDtA' -%}</div>
+<div>{%- include extensions/youtube.html id='iLX2Z0kZta4' -%}</div>
 
 ***The 4th Law of Behavior Change- Make it Satisfying***
 
