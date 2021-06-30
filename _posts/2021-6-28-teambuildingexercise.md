@@ -1,6 +1,6 @@
 ---
 title: Thoughts on IR Team Building Exercise
-excerpt: Thoughts On Recent OpsDrill Incident Response Team Building Exercise that Ans, Raven, Jimm, Chris, and myself completed
+excerpt: Thoughts On ITEC7000 OpsDrill Incident Response Team Building Exercise
 cover:
 cover_size: sm
 tags: MGA DSCIT ITEC7000
