@@ -1,9 +1,9 @@
 ---
 title: The Forensic Lunch w/ Josh Brunty
-excerpt: THANK YOU!! to those of you who took the time out of your day to nominate me as DFIR Mentor of the Year for the 2021 Forensic 4:Cast Awards!
-cover: /images/4cast2021/4cast2021.jpg
+excerpt: The Forensic Lunch (5/8/2021) w/ Josh Brunty Jack Farley, Josh Brunty, Kevin Pagano, Tom Pace, & Jim Arnold
+cover: 
 cover_size: sm
-tags: DFIR 4cast DFIRsummit
+tags: DFIR digitalforensics forensiclunch podcast interviews
 author: rms 
 ---
 
