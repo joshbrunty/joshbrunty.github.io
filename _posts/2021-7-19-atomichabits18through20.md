@@ -6,9 +6,8 @@ cover_size: sm
 tags: MGA DSCIT ITEC7000
 author: rms
 ---
-
-<div>{%- include extensions/youtube.html id='KlqYkKn4hQc' -%}</div>
 ***Tiny, sustainable, unrelenting improvements can make a big difference***
+<div>{%- include extensions/youtube.html id='KlqYkKn4hQc' -%}</div>
 ### Chapter 18- The Truth About Talent (When Genes Matter & When They Don't
 This chapter emphasizes the that the secret to maximizing your odds of success is choosing the right field of competition. I once had a little league coach of mine tell me that each of us were good in a sport, in a particular position, in a particular situation. The hard part is finding where that "good" is. Many things in life have not come to me easy. Academics, if I am being blatantly honest, were never easy to me. Although I made the grades and excelled academically, I felt as if I had to outwork my classmates and push myself to produce above and beyond what is required. For me going above and beyond sometimes is the easy part. As the book suggest, habits are easier when they align with your natural abilities. Therefore, it's important for me to choose the habits that best suit you. Not only that, play a game that favors your strengths. I suppose that's why I chose a doctorate program in IT over computer science, education, or intelligence. For me, hard work and IT always came easy to me. It is also something I've been interested in and excelled in professionally. Thus, I'm essentially picking and playing a game that favors my strengths by virtue of taking on the work of this program.
 
