@@ -1,0 +1,24 @@
+---
+title: Thoughts on Atomic Habits (Chapters 18-20)
+excerpt: Thoughts On Atomic Habits Chapters 18-20
+cover: https://joshbrunty.github.io/images/MGA/atomichabits.jpg
+cover_size: sm
+tags: MGA DSCIT ITEC7000
+author: rms
+---
+
+<div>{%- include extensions/youtube.html id='KlqYkKn4hQc' -%}</div>
+
+***Tiny, sustainable, unrelenting improvements can make a big difference***
+
+### Chapter 18- The Truth About Talent (When Genes Matter & When They Don't
+This chapter emphasizes the that the secret to maximizing your odds of success is choosing the right field of competition. I once had a little league coach of mine tell me that each of us were good in a sport, in a particular position, in a particular situation. The hard part is finding where that "good" is. Many things in life have not come to me easy. Academics, if I am being blatantly honest, were never easy to me. Although I made the grades and excelled academically, I felt as if I had to outwork my classmates and push myself to produce above and beyond what is required. For me going above and beyond sometimes is the easy part. As the book suggest, habits are easier when they align with your natural abilities. Therefore, it's important for me to choose the habits that best suit you. Not only that, play a game that favors your strengths. I suppose that's why I chose a doctorate program in IT over computer science, education, or intelligence. For me, hard work and IT always came easy to me. It is also something I've been interested in and excelled in professionally. Thus, I'm essentially picking and playing a game that favors my strengths by virtue of taking on the work of this program.
+
+### Chapter 19- The "Goldilocks Rule"- How to Stay Motivated in Life & Work
+The *Goldilocks Rule* is quite simple: humans experience peak motivation when working on tasks that are right on the edge of their current abilities. For me, this is so true. I am what they call a *lifelong learner*, always up to the challenge of tackling something that challenges me mentally, in addition to something I can learn from. The greatest threat to success is not lack of motivation and/or failure, but boredom. Sometimes we get immersed in habits that are less interesting and satisfying. At some point we get bored with those habits and, thus, fail to continue on with them. Anyone can work on something when they are motivated. However, what happens when it becomes not so motivating. The difference in those who succeed against those that do not are those that work hard even when they are not so motivated. Professionals stick to a schedule while non-professionals let life get in the way. I feel like this is directed towards a doctorate student. I know there will be times that my motivation will not be so high, and the topics? Well... they probably won't be so engaging (at least to me). Where it's important is for me to stay on track and complete the work, as that repetitiveness will allow me to push forward and continue to learn more.
+
+### Chapter 20- The Downside of Creating Good Habits
+This chapter focuses on the simple formulas that *habits + deliberate practice = mastery.* To become great, the author argues, skills need to become automatic. One such example is Coach Pat Riley of the LA Lakers introducing the Career Best Effort (CBE) statistic to his players in November, 1986 as a metric to show how each player slightly improved since their high school days. This metric also showed each player their strengths and weaknesses, and rewarded this stat for immeasurable plays such as diving for a ball, and helping guard a man. That next year the Lakers won the NBA Championship. The CBE metric was an example of the power of reflection and review. The Lakers had talent, both in the past and in that season, but the CBE gave them a metric so show where they were and where they could be headed. It also allowed for a benchmark of improvement. This chapter, if anything, showed to me the importance of reflection and review. It is important to benchmark yourself at certain points in your growth process, both academically and professionally, and find ways to improve upon these benchmarks. This, in turn, will allow me to change my identity if need be and not be so rigid. In turn, I won't be so held back.
+
+### Conclusion
+To me, this book is a great "beginning of a journey" text for anyone getting ready to engage in masters or doctoral work. It provides a foundation for sustained growth and improvements. It also lays out the 4 Laws of Behavior Change: Make it *obvious*, make it *attractive*, make it *easy*, and make it *satisfying*. So too often we plow through our professional and academic tasks with little or no regard on how to align it with our interests, strengths, and good habits. Taking the time to do this, the author argues, builds a better foundation for sustained success. I will most definitely be referring back to points in this text during my doctoral journey!
