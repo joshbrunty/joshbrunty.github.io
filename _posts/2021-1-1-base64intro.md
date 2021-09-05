@@ -90,6 +90,8 @@ To perform this automatically I'd recommend utilizing the builtin decoding mecha
 
 * [BASE64- A Visual Explanation](https://www.lucidchart.com/techblog/2017/10/23/base64-encoding-a-visual-explanation/)
 
+* [BASE64 Visual Encoder](https://codepen.io/lewistg/pen/MEQbmB)
+
 * [Base64 Alphabets (Gary Kessler)](https://www.garykessler.net/library/base64.html)
 
 * [RFC 4648](https://www.rfc-editor.org/rfc/rfc4648.txt)
