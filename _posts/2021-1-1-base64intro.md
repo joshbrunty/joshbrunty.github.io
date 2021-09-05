@@ -88,10 +88,14 @@ To perform this automatically I'd recommend utilizing the builtin decoding mecha
 
 * [CyberChef](https://gchq.github.io/CyberChef/)
 
+* [BASE64- A Visual Explanation](https://www.lucidchart.com/techblog/2017/10/23/base64-encoding-a-visual-explanation/)
+
 * [Base64 Alphabets (Gary Kessler)](https://www.garykessler.net/library/base64.html)
 
 * [RFC 4648](https://www.rfc-editor.org/rfc/rfc4648.txt)
 
 * [Online Base64 Decoder](https://www.base64decode.org/)
+
+* [Custom base64 alphabet encoder/decoder](https://www.matteomalvica.com/blog/2019/01/21/custom-base64-alphabet-encoder/decoder/)
 
 <!--more-->
