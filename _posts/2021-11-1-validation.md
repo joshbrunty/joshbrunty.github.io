@@ -52,18 +52,10 @@ Outside all the recommendations and standards set forth by NIST and the legal co
 #### 4) Validate the Test Results against Known and Expected Results
 At this point, testing is conducted against the requirements set forth for the software or tool in the previous steps. Keep in mind that results generated through the experimentation and validation stage must be repeatable. Validation should go beyond a simple surface scan when it comes to the use of those technologies in a scientific process. With that said, it is recommended that each requirement be tested at least three times. If there are any variables that may affect the outcome of the validation (e.g. failure to write-block, software bugs) they should be determined after three test runs. There may be cases, however, where more or fewer test runs may be required to generate valid results. It’s also important to realize that you are probably not the first to use and validate a particular software or tool, so chances are that if you are experiencing inconsistent results, the community may be experiencing the same results as well. Utilizing peer review may be a valuable asset when performing these validations. Organizations such as the High Technology Crime Investigation Association (HTCIA) and the International Association of Computer Investigative Specialists (IACIS) maintain active member e-mail lists for members that can be leveraged for peer review. There are also various lists and message boards pertaining to mobile phone forensics that can be quite helpful when validating a new mobile technology. In addition, most forensic software vendors maintain message boards for software, which can be used to research bugs or inconsistencies arising during validation testing.
 
-### Conclusion
+## Conclusion
 Real world laboratory use, controlled internal tests utilizing scientific principles, and peer review should all be leveraged in a validation test plan. Sharing unique results with the digital forensics community at-large helps investigators, examiners, and even software and tool vendors ensure that current best practices are followed. As the field of digital forensics continues to grow and evolve as a science the importance of proper scientific validation will be more important than ever.
 
-----stop here
-
-(1) (PDF) Validation of Forensic Tools and Software: A Quick Guide for the Digital Forensic Examiner. Available from: https://www.researchgate.net/publication/320808735_Validation_of_Forensic_Tools_and_Software_A_Quick_Guide_for_the_Digital_Forensic_Examiner [accessed Oct 28 2021].
-
-## **Conclusion** 
-
-To perform this automatically I'd recommend utilizing the builtin decoding mechanisms of your forensic tools. Tools like Cellebrite & Magnet Axiom have robust data coversion capabilities, but there might be a case where you are using a standalone script or utility that doesn't have such a mechanism. One such program I highy recommend using is [CyberChef](https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')&input=SEVSRA). CyberChef handles both Base64 encoding/decoding (among a host of other decoding types commonly encountered by digital forensics examiners). 
-
-## **Additional Links**
+## References
 
 * [CyberChef](https://gchq.github.io/CyberChef/)
 
