@@ -11,12 +11,11 @@ article_header:
     src: /images/validation/validate1.jpg 
     
 ---
-
-
 ## **Introduction**
 With the field of digital forensics growing at an almost warp-like speed, there are many issues out there that can disrupt and discredit even the most experienced forensic examiner.  One of the issues that continue to be of utmost importance is the validation of the technology and software associated with performing a digital forensic examination.  The science of digital forensics is founded on the principles of repeatable processes and quality evidence.  Knowing how to design and properly maintain a good validation process is a key requirement for any digital forensic examiner.   This post will attempt to outline the issues faced when drafting tool and software validations, the legal standards that should be followed when drafting validations, and a quick overview of what should be included in every validation. 
 
-## Setting the Standard: Standards and Legal Baselines for Software/Tool Validation
+## Setting the Standard: 
+### Standards and Legal Baselines for Software/Tool Validation
 According to the National Institute of Standards and Technology (NIST), test results must be repeatable and reproducible to be considered admissible as electronic evidence.  Digital forensics test results are repeatable when the same results are obtained using the same methods in the same testing environment. Digital forensics test results are reproducible when the same when the same test results are obtained using the same method in a different testing environment (different mobile phone, hard drive, and so on).  NIST specifically defines these terms as follows: 
 
 `Repeatability:`{:.success}
@@ -37,7 +36,7 @@ technique:
 
 The Daubert Standard requires an independent judicial assessment of the reliability of the scientific test or method.This reliability assessment, however, does not require, nordoes it permit, explicit identification of a relevant scientificcommunity and an express determination of a particular degree of acceptance within that community. Additionally, the Daubert Standard was quick to point out that the fact that atheory or technique has not been subjected to peer review orhas not been published does not automatically render thetool/software inadmissible. The ruling recognizes that scientific principles must be flexible and must be the product of reliableprinciples and methods. Although the Daubert Standard was inno way directed toward digital forensics validations, thescientific baselines and methods it suggests are a good startingpoint for drafting validation reports that will hold up in a courtof law and the digital forensics community. 
 
-## **The Scientific Method and Software/Tool Validations: A Perfect Fit?**
+## The Scientific Method and Software/Tool Validations: A Perfect Fit?
 In the Daubert ruling, The Court defined scientific methodology as “the process of formulating hypotheses and then conducting experiments to prove or falsify the hypothesis.” The Scientific Method refers to a body of techniques for investigating phenomena, acquiring new knowledge, or correcting and integrating previous knowledge. To be termed scientific, the method must be based on gathering, observing, or investigating, and showing measurable and repeatable results. Most of the time, the scientific process starts with a simple question that leads to a hypothesis, which then leads to experimentation, and an ultimate conclusion. To exemplify, if you are validating a particular hardware write blocking device you may want to start with the simple question “Does this tool successfully allow normal write-block operation to occur to source media?” Since it is assumed that the write-blocking device supports various types of media (SATA, IDE, and so on)
 you may be required to list the various requirements of the tool. Because if this, it is good practice for an examiner to use the scientific method as a baseline for formulating digital forensic validations. It is recommended that forensic examiners follow these four basic steps as a starting point for an internal validation program:
 
@@ -53,7 +52,8 @@ Outside all the recommendations and standards set forth by NIST and the legal co
 #### 4) Validate the Test Results against Known and Expected Results
 At this point, testing is conducted against the requirements set forth for the software or tool in the previous steps. Keep in mind that results generated through the experimentation and validation stage must be repeatable. Validation should go beyond a simple surface scan when it comes to the use of those technologies in a scientific process. With that said, it is recommended that each requirement be tested at least three times. If there are any variables that may affect the outcome of the validation (e.g. failure to write-block, software bugs) they should be determined after three test runs. There may be cases, however, where more or fewer test runs may be required to generate valid results. It’s also important to realize that you are probably not the first to use and validate a particular software or tool, so chances are that if you are experiencing inconsistent results, the community may be experiencing the same results as well. Utilizing peer review may be a valuable asset when performing these validations. Organizations such as the High Technology Crime Investigation Association (HTCIA) and the International Association of Computer Investigative Specialists (IACIS) maintain active member e-mail lists for members that can be leveraged for peer review. There are also various lists and message boards pertaining to mobile phone forensics that can be quite helpful when validating a new mobile technology. In addition, most forensic software vendors maintain message boards for software, which can be used to research bugs or inconsistencies arising during validation testing.
 
-
+### Conclusion
+Real world laboratory use, controlled internal tests utilizing scientific principles, and peer review should all be leveraged in a validation test plan. Sharing unique results with the digital forensics community at-large helps investigators, examiners, and even software and tool vendors ensure that current best practices are followed. As the field of digital forensics continues to grow and evolve as a science the importance of proper scientific validation will be more important than ever.
 
 ----stop here
 
