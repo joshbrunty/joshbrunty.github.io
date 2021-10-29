@@ -57,12 +57,22 @@ Real world laboratory use, controlled internal tests utilizing scientific princi
 
 ## References
 
-* [CyberChef](https://gchq.github.io/CyberChef/)
-
-* [Base64 Alphabets (Gary Kessler)](https://www.garykessler.net/library/base64.html)
-
-* [RFC 4648](https://www.rfc-editor.org/rfc/rfc4648.txt)
-
-* [Online Base64 Decoder](https://www.base64decode.org/)
+* 1. Brown, C. "Computer Evidence: Collection &
+Preservation." Hingham: Thomson/Delmar. 2006.
+* 2. Carrier, B. “Digital Forensics Tool Testing Images.”
+Accessed 06 Feb 2011. http://dftt.sourceforge.net/.
+* 3. Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579
+(1993).
+* 4. High Technology Crime Investigation Association,
+Accessed 06 Feb 2011. www.htcia.org.
+* 5. International Association of Computer Investigative
+Specialists, Accessed 06 Feb 2011. www.iacis.org.
+* 6. Maras, MH. Computer Forensics: Cybercriminals, Laws,
+and Evidence. Sudbury: Jones & Bartlett. 2011.
+* 7. Marshall University Forensic Science Center-Digital
+Publications, Accessed 06 Feb 2011.
+http://forensics.marshall.edu/Digital/DigitalPublications.html.
+* 8. NIST Computer Forensic Tool Testing Project. Accessed
+06 Feb 2011. www.cftt.nist.gov.
 
 <!--more-->
