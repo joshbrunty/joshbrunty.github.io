@@ -11,7 +11,10 @@ article_header:
     src: /images/validation/validate1.jpg 
     
 ---
-## **Introduction**
+## Prologue
+This is an article that I originally wrote back in 2011 that was archived to [ResearchGate](https://www.researchgate.net/publication/320808735_Validation_of_Forensic_Tools_and_Software_A_Quick_Guide_for_the_Digital_Forensic_Examiner) 
+
+## Introduction
 With the field of digital forensics growing at an almost warp-like speed, there are many issues out there that can disrupt and discredit even the most experienced forensic examiner.  One of the issues that continue to be of utmost importance is the validation of the technology and software associated with performing a digital forensic examination.  The science of digital forensics is founded on the principles of repeatable processes and quality evidence.  Knowing how to design and properly maintain a good validation process is a key requirement for any digital forensic examiner.   This post will attempt to outline the issues faced when drafting tool and software validations, the legal standards that should be followed when drafting validations, and a quick overview of what should be included in every validation. 
 
 ## Setting the Standard
@@ -57,19 +60,19 @@ Real world laboratory use, controlled internal tests utilizing scientific princi
 
 ## References
 
-* 1. Brown, C. "Computer Evidence: Collection &
+1. Brown, C. "Computer Evidence: Collection &
 Preservation." Hingham: Thomson/Delmar. 2006.
-* 2. Carrier, B. “Digital Forensics Tool Testing Images.”
+2. Carrier, B. “Digital Forensics Tool Testing Images.”
 Accessed 06 Feb 2011. http://dftt.sourceforge.net/.
-* 3. Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579
+3. Daubert v. Merrell Dow Pharmaceuticals, 509 U.S. 579
 (1993).
-* 4. High Technology Crime Investigation Association,
+4. High Technology Crime Investigation Association,
 Accessed 06 Feb 2011. www.htcia.org.
-* 5. International Association of Computer Investigative
+5. International Association of Computer Investigative
 Specialists, Accessed 06 Feb 2011. www.iacis.org.
-* 6. Maras, MH. Computer Forensics: Cybercriminals, Laws,
+6. Maras, MH. Computer Forensics: Cybercriminals, Laws,
 and Evidence. Sudbury: Jones & Bartlett. 2011.
-* 7. Marshall University Forensic Science Center-Digital
+7. Marshall University Forensic Science Center-Digital
 Publications, Accessed 06 Feb 2011.
 http://forensics.marshall.edu/Digital/DigitalPublications.html.
 * 8. NIST Computer Forensic Tool Testing Project. Accessed
