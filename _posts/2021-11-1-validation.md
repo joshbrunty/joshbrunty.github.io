@@ -12,7 +12,7 @@ article_header:
     
 ---
 ## Prologue
-This is an article that I originally wrote back in 2011 that was archived to [ResearchGate](https://www.researchgate.net/publication/320808735_Validation_of_Forensic_Tools_and_Software_A_Quick_Guide_for_the_Digital_Forensic_Examiner) 
+This is an article that I originally wrote for Forensic Magazine back in 2011. For whatever reason Forensic Mag decided to take it down so I then archived it to [ResearchGate](https://www.researchgate.net/publication/320808735_Validation_of_Forensic_Tools_and_Software_A_Quick_Guide_for_the_Digital_Forensic_Examiner). Although some of the content is dated, my hope is to continue to add to this *"living Blog document"* of sorts until the opportunity arises to publish this work in an academic journal in the near future for posterity's sake.
 
 ## Introduction
 With the field of digital forensics growing at an almost warp-like speed, there are many issues out there that can disrupt and discredit even the most experienced forensic examiner.  One of the issues that continue to be of utmost importance is the validation of the technology and software associated with performing a digital forensic examination.  The science of digital forensics is founded on the principles of repeatable processes and quality evidence.  Knowing how to design and properly maintain a good validation process is a key requirement for any digital forensic examiner.   This post will attempt to outline the issues faced when drafting tool and software validations, the legal standards that should be followed when drafting validations, and a quick overview of what should be included in every validation. 
