@@ -3,7 +3,7 @@ title: Thoughts on Atomic Habits (Chapters 1-3)
 excerpt: Thoughts On James Clear's "Atomic Habits" Chapters 1-3 
 cover: https://joshbrunty.github.io/images/MGA/atomichabits.jpg
 cover_size: sm
-tags: MGA DSCIT ITEC7000
+tags: atomichabits MGA DSCIT ITEC7000
 author: rms
 ---
 
