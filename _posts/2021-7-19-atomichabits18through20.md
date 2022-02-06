@@ -3,7 +3,7 @@ title: Thoughts on Atomic Habits (Chapters 18-20)
 excerpt: Thoughts On Atomic Habits Chapters 18-20
 cover: https://joshbrunty.github.io/images/MGA/atomichabits.jpg
 cover_size: sm
-tags: MGA DSCIT ITEC7000
+tags: atomichabits MGA DSCIT ITEC7000
 author: rms
 ---
 
