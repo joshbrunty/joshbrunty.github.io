@@ -6,7 +6,7 @@ title: About Me
 
 I am a Professor of Cyber Forensics & Cybersecurity @ [Marshall University](https://www.marshall.edu)
 
-I am also a current Doctorate of Science student in Information Technology (DScIT) at [Middle Georgia State University](https://www.mga.edu/computing/doctorate-information-technology.php).
+I am also the current Head Coach of the US Cyber Team, which is part of the [US Cyber Games](https://www.uscybergames.com).
 
 I write stuff here that doesn't fit anywhere else on the internet.... but mainly posts about my doctorate journey at [MGA](https://www.mga.edu) & some of my digital forensics research and other happenings here at [Marshall](https://www.marshall.edu).
 
