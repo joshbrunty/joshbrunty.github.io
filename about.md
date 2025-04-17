@@ -8,7 +8,7 @@ I am a Professor of Cyber Forensics & Cybersecurity @ [Marshall University](http
 
 I am also the current Head Coach of the US Cyber Team, which is part of the [US Cyber Games](https://www.uscybergames.com).
 
-I write stuff here that doesn't fit anywhere else on the internet.... but mainly posts about my doctorate journey at [MGA](https://www.mga.edu) & some of my digital forensics research and other happenings here at [Marshall](https://www.marshall.edu).
+I write stuff here that doesn't fit anywhere else on the internet & some of my digital forensics research and other happenings here at [Marshall](https://www.marshall.edu).
 
 # Follow Me
 * [Research Page](https://www.marshall.edu/cyber/profile/josh-brunty/)
