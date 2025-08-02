@@ -234,8 +234,6 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 - **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
 - **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
-> ### Here's an overview of the quarter-by-quarter gameplan. This can be further drilled-in to a play-by-play breakdown sheet for the coaches to follow. This plan blends Rod Smith’s offensive tendencies with Tony Gibson’s defensive disruption, tailored to exploit Georgia’s patterns, personnel, and coaching behaviors.
-
 #### 1st Quarter: Controlled Chaos
 
 - **Offensive Approach**: Begin with a scripted 12–15 play sequence emphasizing RPOs, boundary throws, and motion to manipulate Georgia’s linebackers. Use tempo variation to prevent defensive substitutions and test Georgia’s early alignment discipline.
