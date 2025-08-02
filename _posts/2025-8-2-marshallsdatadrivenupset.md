@@ -331,7 +331,6 @@ I also accounted for the coaching tendencies for these 2 teams (as I did for Geo
 **(Original Win Probability: 17.94%)**
 
 **Insight:** Against OSU's explosive offense, Marshall’s blueprint still improves win probability by nearly 7.5 percentage points over baseline. The strategy creates a viable path to victory in over 1 in 4 simulations, even when accounting for elite talent. Also, in the actual 2024 matchup, Ohio State defeated Marshall **49–14**, a 35-point margin. The simulation, however, produces a much narrower gap—just under **6 points** on average. This suggests that the AI-driven blueprint could significantly close the competitive distance, even against a top-tier opponent.
----
 
 ### Strategic Validation
 
