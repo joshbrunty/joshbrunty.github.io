@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Starting My Doctoral Journey
-tags: MGA DSCIT ITEC7000
+title: Marshall's Data Driven Upset
+tags: AI Marshall Football data analytics
 author: rms
 key: anything
 class: success error shadow
