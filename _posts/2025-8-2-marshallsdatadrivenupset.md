@@ -252,8 +252,8 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 
 | Team      | Avg. Score |
 |-----------|------------|
-| **Marshall** | 14.25      |
-| **Georgia**  | 20.46      |
+| **Marshall** | 14.25   |
+| **Georgia**  | 20.46   |
 ---
 
 ### Key Takeaways
@@ -264,11 +264,7 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 
 ## 6. Coaching-Adjusted Monte Carlo Simulations — Strategy Meets Reality
 
-To ensure the AI-driven blueprint holds up under real-world conditions, we re-ran the Monte Carlo simulations with coaching tendencies integrated:
-
-- **Marcus Freeman (Notre Dame)**: Aggressive fourth-down decisions and analytics-driven play-calling increase scoring efficiency and reduce variance.
-- **Ryan Day (Ohio State)**: High red zone conversion and vertical tempo remain, but reduced scoring variance reflects officiating disparities and situational constraints.
-
+To ensure the AI-driven blueprint holds up under real-world conditions, I re-ran the the Monte Carlo simulations for the 2022 Marshall vs. Notre Dame and 2024 Ohio State vs. Marshall:
 ---
 
 ### Why These Games?
@@ -279,6 +275,11 @@ The selection of **Notre Dame (2022)** and **Ohio State (hypothetical)** was int
 - **Ohio State**, ranked No. 1 entering the 2025 season, serves as the ultimate stress test. Simulating this matchup allows us to evaluate whether the blueprint can scale against elite talent, coaching, and tempo.
 
 Together, these games offer a spectrum of challenge—from proven success to aspirational disruption.
+
+I also accounted for the coaching tendencies for these 2 teams (as I did for Georgia):
+
+- **Marcus Freeman (Notre Dame)**: Aggressive fourth-down decisions and analytics-driven play-calling increase scoring efficiency and reduce variance.
+- **Ryan Day (Ohio State)**: High red zone conversion and vertical tempo remain, but reduced scoring variance reflects officiating disparities and situational constraints.
 
 ---
 
@@ -301,7 +302,7 @@ Together, these games offer a spectrum of challenge—from proven success to asp
 
 **Win Probability:** **96.91%**
 
-**Insight:** Even with Freeman’s analytics-enhanced offense, Marshall’s blueprint dominates. The simulation confirms that the strategy is resilient against modern coaching tactics.
+**Insight:** Even with Freeman’s analytics-enhanced offense, Marshall’s blueprint dominates. The simulation confirms that the strategy is resilient and would produce a similar result as it did in 2022.
 
 ---
 
@@ -325,7 +326,7 @@ Together, these games offer a spectrum of challenge—from proven success to asp
 **Win Probability:** **25.42%**  
 **(Original Win Probability: 17.94%)**
 
-**Insight:** Against Ryan Day’s explosive offense, Marshall’s blueprint still improves win probability by nearly 7.5 percentage points over baseline. The strategy creates a viable path to victory in over 1 in 4 simulations, even when accounting for elite coaching.
+**Insight:** Against OSU's explosive offense, Marshall’s blueprint still improves win probability by nearly 7.5 percentage points over baseline. The strategy creates a viable path to victory in over 1 in 4 simulations, even when accounting for elite talent.
 
 ---
 
