@@ -105,7 +105,9 @@ It doesn't take data analytics or AI here to determine that Marshall is at a mas
 
 Rather than relying on Marshall’s 2024 play-calling data—which reflected Charles Huff’s philosophy—I recalibrated the model to reflect the strategic DNA of Marshall’s new coaching staff and Georgia’s 2024 coordinators. This ensures the simulation engine mirrors how the team is likely to operate in 2025, not how it played last season.
 
-### 3.1 Offensive Blueprint: Rod Smith (Jacksonville State)
+### 3.1 Marshall Coaching Profile: 2025 Predicted Coaching Tendencies
+
+#### Offensive Blueprint: Rod Smith (Jacksonville State)
 
 Rod Smith’s offenses at Jacksonville State were built around a physical, tempo-driven spread system. His play-calling leaned heavily on the run, but with modern RPO and motion elements that stress defenses horizontally and vertically.
 
@@ -117,7 +119,7 @@ Rod Smith’s offenses at Jacksonville State were built around a physical, tempo
 
 These traits were extracted from JSU game logs and encoded into the simulation engine to reflect how Marshall’s offense will likely operate under Smith.
 
-### 3.2 Defensive Blueprint: Tony Gibson (NC State)
+#### Defensive Blueprint: Tony Gibson (NC State)
 
 Tony Gibson’s 3-3-5 stack defense at NC State is known for its aggressive blitzing and post-snap disguise. His units consistently ranked among the ACC’s best in third-down defense and red-zone efficiency.
 
@@ -129,7 +131,7 @@ Tony Gibson’s 3-3-5 stack defense at NC State is known for its aggressive blit
 
 These defensive patterns were modeled to simulate how Marshall might counter Georgia’s offensive strengths, particularly in passing downs and red-zone situations.
 
-### 3.3 Defensive Coordinator Layer: Shannon Morrison
+#### Defensive Coordinator Layer: Shannon Morrison
 
 As the new defensive coordinator, Shannon Morrison adds nuance to Marshall’s defensive strategy. His past work emphasizes situational disguise, hybrid linebacker usage, and zone rotation—complementing Gibson’s aggressive philosophy (at least this is what game trends show).
 
@@ -140,7 +142,7 @@ As the new defensive coordinator, Shannon Morrison adds nuance to Marshall’s d
 
 As Morrison’s role becomes clearer during fall camp and early-season games, the model can be updated to reflect his influence on coverage shells and blitz timing.
 
-### 3.4 Opponent Profile: Georgia’s 2024 Coaching Tendencies
+### 3.2 Opponent Profile: Georgia’s 2024 Coaching Tendencies
 
 #### Kirby Smart – Strategic Philosophy
 
@@ -173,7 +175,7 @@ Bobo’s 2024 offense saw a statistical dip despite returning talent:
 
 > 📌 *Edge Modeling: Bobo’s predictable sequencing and reduced run efficiency create opportunities for Marshall’s disguised blitzes and tempo disruption.*
 
-### 3.5 Future Model Adaptation
+### 3.3 Future Model Adaptation
 
 Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Marshall and establish their 2025 play-calling identities, the model will be retrained using:
 
@@ -184,7 +186,7 @@ Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Mar
 
 > 📌 *Goal: Build a living model that evolves with the team, adapting to real-time coaching decisions and opponent adjustments.*
 
-### 3.6 Matchup Edge: Where Scheme Meets Opportunity
+### 3.4 Matchup Edge: Where Scheme Meets Opportunity
 
 By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread offense and Tony Gibson’s aggressive 3-3-5 defense—complemented by Shannon Morrison’s situational disguise—the simulation identifies several key matchup advantages against Georgia’s 2024 coaching staff led by Kirby Smart, Glenn Schumann, and Mike Bobo.
 
