@@ -21,11 +21,11 @@ Entering Week 1 of the 2025 season, Marshall faces daunting odds against top-ran
 
 For this experiment I apply a four-pillar pipeline of data ingestion, feature engineering, predictive modeling, and decision scripting—to craft a quarter-by-quarter game plan that puts Marshall in position to upset an elite SEC football team in hostile Sanford Stadium in Week 1 of 2025.
 
-## 1. AI Analytics Pipeline — Turning Raw Data into Play-Calling Precision
+## AI Analytics Pipeline — Turning Raw Data into Play-Calling Precision
 
 This section outlines the four-stage AI pipeline that transforms raw football data into actionable, quarter-by-quarter game plans. Think of it as a play-calling assistant that learns from past games, simulates future ones, and scripts decisions in real time.
 
-### 1.1 Data Acquisition
+### Data Acquisition
 
 Gather every piece of structured and unstructured data that could influence a game. In this case it's worthy to note that it's the first game of the season for both teams so rosters are fairly predictable as of the writing of this post:
 
@@ -35,7 +35,7 @@ Gather every piece of structured and unstructured data that could influence a ga
 
 > 📌 *Goal: Scrape rosters and build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
 
-### 1.2 Feature Engineering
+### Feature Engineering
 
 Tag and transform the data into features that machine learning models can understand:
 
@@ -48,7 +48,7 @@ Tag and transform the data into features that machine learning models can unders
 
 > 📌 *Goal: Convert raw data into meaningful variables that capture the DNA of each team’s strategy.*
 
-### 1.3 Predictive Modeling & Simulation
+### Predictive Modeling & Simulation
 
 Use machine learning to forecast outcomes:
 
@@ -58,25 +58,25 @@ Use machine learning to forecast outcomes:
 
 > 📌 *Goal: Forecast how different play-calling strategies will perform under various game conditions.*
 
-## 2. Leveraging the 2025-2026 Rosters
+## Leveraging the 2025-2026 Rosters
 
 To build a matchup-aware game plan, I began by scraping and structuring the 2025–26 rosters for both Marshall and Georgia. Again, this is fairly predictive since this is the first game for both teams. However, this can be done from week-to-week to account for injuries, breakout players, and roster attrition. For the first game, this process (especially for Marshall) involved multiple data sources and custom parsing logic:
 
-### 2.1 Data Sources
+### Data Sources
 
 - **Official Team Websites**: Depth charts, player bios, and spring practice updates.
 - **Transfer Portal Trackers**: Verified incoming and outgoing transfers.
 - **Recruiting Databases**: 2026 commits and early enrollees from sites like 247Sports and On3.
 - **Game Logs**: Historical performance data from 2024 and early 2025 seasons.
 
-### 2.2 Scraping Methodology
+### Scraping Methodology
 
 - **Python Scripts with BeautifulSoup & Requests**: Used to extract structured HTML tables and player metadata.
 - **Regex Parsing**: Cleaned and normalized inconsistent formats (e.g., position abbreviations, height/weight units).
 - **Data Validation**: Cross-referenced player names, positions, and eligibility with multiple sources to ensure accuracy.
 - **Automated Updates**: Scheduled scripts to re-scrape weekly during fall camp to capture depth chart changes and injury reports.
 
-### 2.3 Roster Structuring
+### Roster Structuring
 
 Each player was tagged with:
 
@@ -101,11 +101,11 @@ Georgia counters with a balanced offensive attack, athletic edge defenders, and 
 
 It doesn't take data analytics or AI here to determine that Marshall is at a massive disadvantage when it comes to the talent stack of Georgia (The Jimmies). This is not the point of the roster scrapting and comparison. The idea is to find the strengeths of the inferior team (Marshall), and use those strengths for data analytics/AI to build further gameplan from. We'll discuss this later on...
 
-## 3. Translating Coaching Tendencies to 2025 Context
+## Translating Coaching Tendencies to 2025 Context
 
 Rather than relying on Marshall’s 2024 play-calling data—which reflected Charles Huff’s philosophy—I recalibrated the model to reflect the strategic DNA of Marshall’s new coaching staff and Georgia’s 2024 coordinators. This ensures the simulation engine mirrors how the team is likely to operate in 2025, not how it played last season.
 
-### 3.1 Marshall Coaching Profile: 2025 Predicted Coaching Tendencies
+### Marshall Coaching Profile: 2025 Predicted Coaching Tendencies
 
 #### Offensive Blueprint: Rod Smith (Jacksonville State)
 
@@ -142,7 +142,7 @@ As the new defensive coordinator, Shannon Morrison adds nuance to Marshall’s d
 
 As Morrison’s role becomes clearer during fall camp and early-season games, the model can be updated to reflect his influence on coverage shells and blitz timing.
 
-### 3.2 Opponent Profile: Georgia’s 2024 Coaching Tendencies
+### Opponent Profile: Georgia’s 2024 Coaching Tendencies
 
 #### Kirby Smart – Strategic Philosophy
 
@@ -175,7 +175,7 @@ Bobo’s 2024 offense saw a statistical dip despite returning talent:
 
 > 📌 *Edge Modeling: Bobo’s predictable sequencing and reduced run efficiency create opportunities for Marshall’s disguised blitzes and tempo disruption.*
 
-### 3.3 Future Model Adaptation
+### Future Model Adaptation
 
 Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Marshall and establish their 2025 play-calling identities, the model will be retrained using:
 
@@ -186,7 +186,7 @@ Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Mar
 
 > 📌 *Goal: Build a living model that evolves with the team, adapting to real-time coaching decisions and opponent adjustments.*
 
-### 3.4 Matchup Edge: Where Scheme Meets Opportunity
+### Matchup Edge: Where Scheme Meets Opportunity
 
 By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread offense and Tony Gibson’s aggressive 3-3-5 defense—complemented by Shannon Morrison’s situational disguise—the simulation identifies several key matchup advantages against Georgia’s 2024 coaching staff led by Kirby Smart, Glenn Schumann, and Mike Bobo.
 
@@ -204,7 +204,7 @@ By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread 
 - Tony Gibson’s post-snap pattern matching and disguised blitzes are designed to confuse quarterbacks reading coverage pre-snap.
 - Shannon Morrison’s influence adds hybrid linebacker/safety looks that can bait throws into disguised zones and rotate coverage shells post-snap.
 
-> 📌 *Edge: Marshall’s disguised coverage and blitz timing disrupt Georgia’s rhythm and force low-EPA decisions.*
+> 📌 *Edge: Marshall’s disguised coverage and blitz timing can disrupt Georgia’s rhythm and force low-EPA decisions.*
 
 #### Situational Edge: Red Zone & Third Down
 
@@ -219,7 +219,7 @@ By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread 
 By aligning Marshall’s emerging identity with the known tendencies of Georgia’s 2024 squad, the model identifies specific leverage points—tempo, disguise, and situational control—that can be exploited to engineer an upset.
 
 
-## 4. Quarter-by-Quarter Game Plan
+## Quarter-by-Quarter Game Plan
 
 Now here's where it gets fun...
 
@@ -236,9 +236,9 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 
 > 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
 
-## 5. Monte Carlo Simulation
+## Monte Carlo Simulation
 
-To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** using updated 2025-26 rosters and coaching tendencies. This model incorporates:
+To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** using the Monte Carlo technique vs. Georgia using the above methodology. This model incorporates:
 
 - **Rod Smith’s spread-tempo offense** (at Jacksonville State)
 - **Tony Gibson’s aggressive 3-3-5 defense** (at NC State)
@@ -254,12 +254,11 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 
 ### Average Scoreline
 
-| Team      | Avg. Score |
-|-----------|------------|
-| **Marshall** | **14.25**   |
-| **Georgia**  | **20.46**   |
+| Team              | Avg. Score  |
+|-------------------|-------------|
+| **Marshall**      | **14.25**   |
+| **Georgia**       | **20.46**   |
 
----
 
 ### Key Takeaways
 
