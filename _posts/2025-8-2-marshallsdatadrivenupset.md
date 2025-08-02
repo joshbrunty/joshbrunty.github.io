@@ -1,6 +1,6 @@
 ---
 layout: article
-title: When Data Meets Grit- A Data-Driven & AI Blueprint For Marshall to Upset Georgia in Week 1 at Sanford Stadium
+title: A Data-Driven & AI Blueprint For Marshall to Upset Georgia in Week 1 at Sanford Stadium
 tags: AI Marshall Football data analytics
 author: rms
 key: anything
@@ -11,11 +11,13 @@ article_header:
     src:  
     
 ---
-***"Failing to prepare is preparing to fail"*** -Coach John Wooden
+***"It's about the Jimmys and the Joes, not the X's and the O's"*** -Coach Darrell Royal
 
 ## Introduction: The Underdog’s Edge
 
 As head coach of both the U.S. Cyber Team and Marshall’s Cybersecurity squad, I’ve leveraged data-driven analytics to win both national and international titles in cybersecurity/CTF competitions. Recently, I came up with the mad-science idea of "Can I use some of the same modeling concepts to potentially predict and possibly win a college football game?" As Texas's Darrell Royal once said "*It's about the Jimmy's and the Joe's, and not the X's and the O's.*" Well, in this case I wanted to see if I could indeed mix both the "Joe's and the O's" and create a predictive gameplan that could be shown to be a winner. Even in my field, data-driven analytics has transformed gut-feel decisions into a precision science. Every snap, formation, and personnel grouping becomes a set of metrics—run-pass splits, yards per play, coverage success—that feed machine-learning models uncovering hidden edges. Blue-blood programs once hoarded these tools; today, advances in automation hand the same toolkit to underdogs.
+
+Entering Week 1 of the 2025 season, Marshall faces daunting odds against top-ranked Georgia in Athens. Sportsbooks (asof the writing of this post) currently list Marshall as a **39.5-point underdog**, with a moneyline of **+3000**, implying a **3.23% chance of victory**. This projection mirrors the kind of lopsided expectations seen in Marshall’s 2024 matchup against Ohio State, which ended in a 49–14 defeat. However, as this post explores, an data-driven strategic blueprint—validated through coaching-adjusted simulations—suggests a much narrower competitive gap is possible. In other words, the data tells a different story.
 
 For this experiment I apply a four-pillar pipeline of data ingestion, feature engineering, predictive modeling, and decision scripting—to craft a quarter-by-quarter game plan that puts Marshall in position to upset an elite SEC football team in hostile Sanford Stadium in Week 1 of 2025.
 
