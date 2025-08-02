@@ -234,8 +234,6 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 - **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
 - **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
-> 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
->
 > ### Here's an overview of the quarter-by-quarter gameplan. This can be further drilled-in to a play-by-play breakdown sheet for the coaches to follow. This plan blends Rod Smith’s offensive tendencies with Tony Gibson’s defensive disruption, tailored to exploit Georgia’s patterns, personnel, and coaching behaviors.
 
 #### 1st Quarter: Controlled Chaos
@@ -270,6 +268,7 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 
 This quarter-by-quarter blueprint is designed not just to compete—but to disrupt. It reflects a strategic layering of analytics, coaching tendencies, and situational football that gives Marshall a path to challenge the No. 1 team in the country.
 
+> 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
 
 ## Monte Carlo Simulation
 
