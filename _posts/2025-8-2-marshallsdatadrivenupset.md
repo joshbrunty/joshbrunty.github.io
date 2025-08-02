@@ -23,26 +23,121 @@ Data-driven analytics has transformed gut-feel decisions into a precision scienc
 
 ## 1. AI Analytics Pipeline
 
-1. **Data Acquisition**  
-   - Scrape 2025–26 rosters, depth charts, play-by-play logs  
-   - Ingest spring practice notes and transfer-portal testing metrics  
+## 1. AI Analytics Pipeline — Turning Raw Data into Play-Calling Precision
 
-2. **Feature Engineering**  
-   - Tag each snap by down, distance, quarter, formation, personnel grouping  
-   - Compute run-pass ratios, yards per play, success rates, Expected Points Added (EPA)  
+This section outlines the four-stage AI pipeline that transforms raw football data into actionable, quarter-by-quarter game plans. Think of it as a play-calling assistant that learns from past games, simulates future ones, and scripts decisions in real time.
 
-3. **Predictive Modeling & Simulation**  
-   - Cluster opponent packages (K-Means on formations/personnel)  
-   - Classify next-play calls (Gradient Boosting on down/distance/score)  
-   - Monte Carlo simulate 10,000 drives under scripted sequences  
+### 1.1 Data Acquisition
 
-4. **Decision Scripting**  
-   - Define quarter-by-quarter game scripts and counters in a YAML DSL  
-   - Auto-generate Markdown play sheets and situational call sheets
+Gather every piece of structured and unstructured data that could influence a game:
+
+- **Rosters & Depth Charts**: Who’s starting, who’s injured, who’s transferring in or out.
+- **Play-by-Play Logs**: Every snap from previous seasons, including down, distance, formation, and result.
+- **Spring Practice Reports & Transfer Portal Metrics**: Early indicators of player development and scheme changes.
+
+> 📌 *Goal: Build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
+
+### 1.2 Feature Engineering
+
+Tag and transform the data into features that machine learning models can understand:
+
+- **Tagging**: Label each play with metadata like down, distance, quarter, formation, personnel grouping, and field position.
+- **Derived Metrics**:
+  - Run-pass ratios
+  - Yards per play
+  - Success rate
+  - Expected Points Added (EPA)
+
+> 📌 *Goal: Convert raw data into meaningful variables that capture the DNA of each team’s strategy.*
+
+### 1.3 Predictive Modeling & Simulation
+
+Use machine learning to forecast outcomes:
+
+- **Clustering**: Group similar formations and personnel packages using K-Means.
+- **Classification**: Predict next play calls using Gradient Boosting based on game context.
+- **Monte Carlo Simulation**: Run thousands of simulated drives to estimate scoring probability, time of possession, and field position.
+
+> 📌 *Goal: Forecast how different play-calling strategies will perform under various game conditions.*
+## 1. AI Analytics Pipeline — Turning Raw Data into Play-Calling Precision
+
+This section outlines the four-stage AI pipeline that transforms raw football data into actionable, quarter-by-quarter game plans. Think of it as a play-calling assistant that learns from past games, simulates future ones, and scripts decisions in real time.
+
+### 1.1 Data Acquisition
+
+Gather every piece of structured and unstructured data that could influence a game:
+
+- **Rosters & Depth Charts**: Who’s starting, who’s injured, who’s transferring in or out.
+- **Play-by-Play Logs**: Every snap from previous seasons, including down, distance, formation, and result.
+- **Spring Practice Reports & Transfer Portal Metrics**: Early indicators of player development and scheme changes.
+
+> 📌 *Goal: Build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
+
+### 1.2 Feature Engineering
+
+Tag and transform the data into features that machine learning models can understand:
+
+- **Tagging**: Label each play with metadata like down, distance, quarter, formation, personnel grouping, and field position.
+- **Derived Metrics**:
+  - Run-pass ratios
+  - Yards per play
+  - Success rate
+  - Expected Points Added (EPA)
+
+> 📌 *Goal: Convert raw data into meaningful variables that capture the DNA of each team’s strategy.*
+
+### 1.3 Predictive Modeling & Simulation
+
+Use machine learning to forecast outcomes:
+
+- **Clustering**: Group similar formations and personnel packages using K-Means.
+- **Classification**: Predict next play calls using Gradient Boosting based on game context.
+- **Monte Carlo Simulation**: Run thousands of simulated drives to estimate scoring probability, time of possession, and field position.
+
+> 📌 *Goal: Forecast how different play-calling strategies will perform under various game conditions.*
+
+### 1.4 Decision Scripting
+
+Translate AI insights into executable game plans:
+
+- **Scripted Game Plans**: Define quarter-by-quarter strategies using a custom YAML-based DSL.
+- **Auto-Generated Play Sheets**: Output Markdown or PDF call sheets tailored to specific situations.
 
 ## 2. Leveraging the 2026 Rosters
 
-Marshall enters the season with a veteran offensive line, a downhill running back duo, and a mobile quarterback. The defense features experienced edge rushers and a ball-hawking secondary.
+## 2. Leveraging the 2026 Rosters
+
+To build a matchup-aware game plan, I began by scraping and structuring the 2025–26 rosters for both Marshall and Georgia. This process involved multiple data sources and custom parsing logic:
+
+### 2.1 Data Sources
+
+- **Official Team Websites**: Depth charts, player bios, and spring practice updates.
+- **Transfer Portal Trackers**: Verified incoming and outgoing transfers.
+- **Recruiting Databases**: 2026 commits and early enrollees from sites like 247Sports and On3.
+- **Game Logs**: Historical performance data from 2024 and early 2025 seasons.
+
+### 2.2 Scraping Methodology
+
+- **Python Scripts with BeautifulSoup & Requests**: Used to extract structured HTML tables and player metadata.
+- **Regex Parsing**: Cleaned and normalized inconsistent formats (e.g., position abbreviations, height/weight units).
+- **Data Validation**: Cross-referenced player names, positions, and eligibility with multiple sources to ensure accuracy.
+- **Automated Updates**: Scheduled scripts to re-scrape weekly during fall camp to capture depth chart changes and injury reports.
+
+### 2.3 Roster Structuring
+
+Each player was tagged with:
+
+- Position group (QB, RB, OL, DL, etc.)
+- Experience level (returning starter, transfer, freshman)
+- Physical metrics (height, weight, speed scores)
+- Performance indicators (yards, tackles, sacks, INTs, etc.)
+- Scheme fit (e.g., zone vs. man coverage tendencies, run-blocking grade)
+
+> 📌 *Goal: Create a matchup matrix that aligns Marshall’s personnel strengths against Georgia’s defensive tendencies and vice versa.*
+
+This structured roster data fed directly into the feature engineering and simulation stages of the pipeline, allowing for matchup-specific play-calling and scripting.
+
+Marshall enters the season with a somewhat veteran offensive line (even through transfer portal), a downhill running back duo, and a mobile quarterback. The defense features experienced edge rushers and a ball-hawking secondary.
 
 Georgia counters with a balanced offensive attack, athletic edge defenders, and a deep secondary rotation. Their incoming talent includes several high-profile recruits and transfers across the defensive front and skill positions.
 
