@@ -267,10 +267,9 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 - The **Monte Carlo simulation for Georgia** produced a median win margin near zero, which may resemble a tie. However, college football games cannot end in a tie—overtime is mandatory. This statistical deadlock suggests Marshall’s blueprint could push Georgia into overtime.
 - This is especially striking when compared to the betting markets, which currently give Marshall just a **3.23% chance of victory**. The simulation, by contrast, yields a **25.42% win probability**, highlighting a dramatic shift in competitive outlook when strategy is optimized.
 
-## 6. Coaching-Adjusted Monte Carlo Simulations — Strategy Meets Reality ##
+## 6. Coaching-Adjusted Monte Carlo Simulations — Strategy Meets Reality
 
 To ensure the AI-driven blueprint holds up under real-world conditions, I re-ran the the Monte Carlo simulations for the 2022 Marshall vs. Notre Dame and 2024 Ohio State vs. Marshall:
----
 
 ### Why These Games?
 
