@@ -118,29 +118,6 @@ Georgia counters with a balanced offensive attack, athletic edge defenders, and 
 
 ## 5. Situational Scripts & Packages
 
-```yaml
-situations:
-  two_minute_drill:
-    sequence:
-      - play: QuickSlant
-        primary: X-WR
-        check: RB-OutLet
-      - play: BubbleScreen
-        primary: Z-WR
-      - play: TECornerShot
-        fake: PlayAction
-
-  red_zone_defense:
-    packages: 4-2-5
-    SAM: boxed
-    safeties_depth: 8
-
-  goal_line_offense:
-    formation: HeavyT
-    sequence:
-      - play: ISO
-      - on_3rd_short: QB-Keeper
-```
 ## 6. Monte Carlo Simulations
 ### 6.1 Prospective Upset Odds vs. Georgia
 
