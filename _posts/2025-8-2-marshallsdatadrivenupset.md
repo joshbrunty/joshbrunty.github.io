@@ -229,40 +229,47 @@ Behind the scenes, this game plan is powered by a custom-built AI model that lev
 
 Using a combination of Python-based tools, the model can generate a **play-by-play breakdown** tailored to specific game scenarios. Here's how it works:
 
-- 🧮 **Monte Carlo simulations** estimate scoring probabilities across thousands of drive sequences.
-- 🧠 **Gradient Boosting classifiers** predict optimal play calls based on down, distance, score, and field position.
-- 🗂️ **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
-- 📄 **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
+- **Monte Carlo simulations** estimate scoring probabilities across thousands of drive sequences.
+- **Gradient Boosting classifiers** predict optimal play calls based on down, distance, score, and field position.
+- **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
+- **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
 > 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
 
+## 5. Monte Carlo Simulation
 
+To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** using updated 2025-26 rosters and coaching tendencies. This model incorporates:
 
-## 5. Situational Scripts & Packages
+- **Rod Smith’s spread-tempo offense** (at Jacksonville State)
+- **Tony Gibson’s aggressive 3-3-5 defense** (at NC State)
+- Georgia’s elite roster and balanced scheme under Kirby Smart (which also accounts for Bobo/Schumann tendencies):
 
-## 6. Monte Carlo Simulations
-### 6.1 Prospective Upset Odds vs. Georgia
+### Simulation Results
 
-| Scenario                        | Baseline Win % | With AI Plan Win % |
-|--------------------------------|----------------|---------------------|
-| Neutral Conditions             | 18.5%          | 34.2%               |
-| Hostile Sanford Stadium (–3 pt)| 12.7%          | 27.8%               |
+| Outcome              | Probability |
+|----------------------|-------------|
+| **Marshall Win**     | **22.26%**  |
+| **Georgia Win**      | **71.10%**  |
+| **Tie**              | **6.64%**   |
 
-### 6.2 Projected Final Score Distribution
+### Average Scoreline
 
-| Final Score       | Frequency | Percentage |
-|-------------------|-----------|------------|
-| Marshall 27–24    | 910       | 9.10%      |
-| Marshall 24–21    | 845       | 8.45%      |
-| Marshall 28–23    | 780       | 7.80%      |
-| Marshall 23–20    | 650       | 6.50%      |
-| Marshall 30–27    | 530       | 5.30%      |
-| Other Marshall Wins| 1,698     | 16.98%     |
-| Georgia Wins      | 7,487     | 74.87%     |
+| Team      | Avg. Score |
+|-----------|------------|
+| **Marshall** | 14.25      |
+| **Georgia**  | 20.46      |
 
-- **Average Simulated Score:** Marshall 26.4, Georgia 22.9  
-- **Median Simulated Score:** Marshall 24–21  
-- **Mode:** 27–24
+### Score Distribution
+
+![Score Distribution: Marshall vs. Georgia](https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d10-1ab27df3ddfeebbd277e627b1d2704ef/views/original/generated_image.png)
+
+---
+
+### 🔍 Key Takeaways
+
+- **Turnovers and explosive plays** are pivotal. Marshall’s wins often correlate with 2+ takeaways and 1+ explosive TDs.
+- **Red zone efficiency** is critical. Rod Smith’s offense must convert limited opportunities into touchdowns.
+- **Defensive disruption** from Gibson’s 3-3-5 can rattle Georgia’s rhythm, especially early.
 
 ## 7. Retrospective Validation: Marshall vs. Notre Dame 2022
 
