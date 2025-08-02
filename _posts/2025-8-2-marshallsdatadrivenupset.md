@@ -1,12 +1,14 @@
 ---
----
-title: When Data Meets Grit: A Data Driven AI Blueprint for Marshall to Upset No. 1 Georgia at Sanford Stadium
-excerpt: 
-cover: 
-cover_size: sm
-tags: MGA DSCIT ITEC7000
+layout: article
+title: When Data Meets Grit: A Data-Driven & AI Blueprint For Marshall to Upset No. 1 at Sanford Stadium
+tags: AI Marshall Football data analytics
 author: rms
----
+key: anything
+class: success error shadow
+article_header:
+  type: cover
+  image:
+    src: /images/validation/validate1.jpg 
     
 ---
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
