@@ -127,16 +127,16 @@ Tony Gibson’s 3-3-5 stack defense at NC State is known for its aggressive blit
 
 These defensive patterns were modeled to simulate how Marshall might counter Georgia’s offensive strengths, particularly in passing downs and red-zone situations.
 
-### 3.3 Defensive Co-Coordinator Layer: Shannon Morrison
+### 3.3 Defensive Coordinator Layer: Shannon Morrison
 
-As co-defensive coordinator, Shannon Morrison adds nuance to Marshall’s defensive strategy. His past work emphasizes situational disguise, hybrid linebacker usage, and zone rotation—complementing Gibson’s aggressive philosophy.
+As the new defensive coordinator, Shannon Morrison adds nuance to Marshall’s defensive strategy. His past work emphasizes situational disguise, hybrid linebacker usage, and zone rotation—complementing Gibson’s aggressive philosophy (at least this is what game trends show).
 
 **Modeling Considerations:**
 - Situational sub-packages (e.g., dime with hybrid LB/S roles)
 - Delayed blitzes and zone rotation
 - Emphasis on third-down disguise and red-zone containment
 
-As Morrison’s role becomes clearer during fall camp and early-season games, the model will be updated to reflect his influence on coverage shells and blitz timing.
+As Morrison’s role becomes clearer during fall camp and early-season games, the model can be updated to reflect his influence on coverage shells and blitz timing.
 
 ### 3.4 Opponent Profile: Georgia’s 2024 Coaching Tendencies
 
