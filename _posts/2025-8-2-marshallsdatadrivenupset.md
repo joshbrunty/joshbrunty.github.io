@@ -1,6 +1,6 @@
 ---
 layout: article
-title: When Data Meets Grit: A Data-Driven & AI Blueprint For Marshall to Upset No. 1 at Sanford Stadium
+title: When Data Meets Grit
 tags: AI Marshall Football data analytics
 author: rms
 key: anything
