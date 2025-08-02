@@ -17,7 +17,7 @@ article_header:
 
 As head coach of both the U.S. Cyber Team and Marshall’s Cybersecurity squad, I’ve leveraged data-driven analytics to win both national and international titles in cybersecurity/CTF competitions. Recently, I came up with the mad-science idea of "Can I use some of the same modeling concepts to potentially predict and possibly win a college football game?" As Texas's Darrell Royal once said "*It's about the Jimmy's and the Joe's, and not the X's and the O's.*" Well, in this case I wanted to see if I could indeed mix both the "Joe's and the O's" and create a predictive gameplan that could be shown to be a winner. Even in my field, data-driven analytics has transformed gut-feel decisions into a precision science. Every snap, formation, and personnel grouping becomes a set of metrics—run-pass splits, yards per play, coverage success—that feed machine-learning models uncovering hidden edges. Blue-blood programs once hoarded these tools; today, advances in automation hand the same toolkit to underdogs.
 
-Entering Week 1 of the 2025 season, Marshall faces daunting odds against top-ranked Georgia in Athens. Sportsbooks (asof the writing of this post) currently list Marshall as a **39.5-point underdog**, with a moneyline of **+3000**, implying a **3.23% chance of victory**. This projection mirrors the kind of lopsided expectations seen in Marshall’s 2024 matchup against Ohio State, which ended in a 49–14 defeat. However, as this post explores, an data-driven strategic blueprint—validated through coaching-adjusted simulations—suggests a much narrower competitive gap is possible. In other words, the data tells a different story.
+Entering Week 1 of the 2025 season, Marshall faces daunting odds against top-ranked Georgia in Athens. Sportsbooks (asof the writing of this post) currently list Marshall as a **39.5-point underdog**, with a moneyline of **+3000**, implying a **3.23% chance of victory**. This projection mirrors the kind of lopsided expectations seen in Marshall’s 2024 matchup against Ohio State, which ended in a 49–14 defeat. However, as this post explores, an data-driven strategic blueprint—validated through coaching-adjusted simulations—suggests a much narrower competitive gap is possible and increases the porbability of victory to close to a **26% chance of victory**. In other words, the data tells a different story.
 
 For this experiment I apply a four-pillar pipeline of data ingestion, feature engineering, predictive modeling, and decision scripting—to craft a quarter-by-quarter game plan that puts Marshall in position to upset an elite SEC football team in hostile Sanford Stadium in Week 1 of 2025.
 
@@ -234,6 +234,8 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 - **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
 - **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
+This is merely an overview of the quarter-by-quarter strategy. However, it can be exploded out to a drive-by-drive strategy if need be.
+
 #### 1st Quarter: Controlled Chaos
 
 - **Offensive Approach**: Begin with a scripted 12–15 play sequence emphasizing RPOs, boundary throws, and motion to manipulate Georgia’s linebackers. Use tempo variation to prevent defensive substitutions and test Georgia’s early alignment discipline.
@@ -372,7 +374,7 @@ These coaching-adjusted simulations confirm that the blueprint isn’t just theo
 
 ## 7. Conclusion: Engineering the Underdog Triumph
 
-By fusing cutting-edge AI pipelines with gridiron strategy, underdog programs can level the playing field—turning limited resources and hostile crowds into opportunity. This deep-dive blueprint not only targets a Week 1 upset at Sanford Stadium but also validates itself against one of college football’s most storied surprises.
+By fusing cutting-edge AI pipelines with gridiron strategy, underdog programs can level the playing field turning limited resources and hostile crowds into opportunity. This deep-dive blueprint not only lays out the path to a Week 1 upset at Sanford Stadium, but also validates itself against two similar opponents.
 
 The next chapter of Marshall’s legacy is waiting to be written—one data-driven snap at a time.
 
