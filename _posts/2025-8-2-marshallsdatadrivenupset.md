@@ -235,6 +235,41 @@ Using a combination of Python-based tools, the model can generate a **play-by-pl
 - **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
 > 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
+>
+> ### Here's an overview of the quarter-by-quarter gameplan. This can be further drilled-in to a play-by-play breakdown sheet for the coaches to follow. This plan blends Rod Smith’s offensive tendencies with Tony Gibson’s defensive disruption, tailored to exploit Georgia’s patterns, personnel, and coaching behaviors.
+
+#### 1st Quarter: Controlled Chaos
+
+- **Offensive Approach**: Begin with a scripted 12–15 play sequence emphasizing RPOs, boundary throws, and motion to manipulate Georgia’s linebackers. Use tempo variation to prevent defensive substitutions and test Georgia’s early alignment discipline.
+- **Defensive Approach**: Deploy base 3-3-5 with disguised coverages. On 2nd-and-long, shift into simulated pressure looks and overload blitzes from the field side. Rotate safeties post-snap to confuse pre-snap reads.
+- **Situational Goal**: Control possession, limit Georgia’s early explosive plays, and create discomfort in their offensive rhythm. A 7–3 or 10–7 scoreline in either direction is acceptable if tempo and control are established.
+
+---
+
+#### 2nd Quarter: Situational Leverage
+
+- **Offensive Approach**: Introduce vertical route concepts off play-action, especially from condensed formations. Target Georgia’s safeties with layered route trees and isolate their STAR defender in coverage using motion and bunch sets.
+- **Defensive Approach**: Increase front rotation and use delayed blitzes to disrupt Georgia’s timing. Emphasize third-down disguise and red zone containment.
+- **Situational Goal**: Flip field position, steal a possession via turnover or fourth-down stop, and enter halftime within one score. Use analytics to guide fourth-down decisions inside Georgia territory.
+
+---
+
+#### 3rd Quarter: Tempo and Turnovers
+
+- **Offensive Approach**: Accelerate tempo immediately after halftime. Use motion to create mismatches and attack Georgia’s linebackers in space. Introduce misdirection and counter concepts to exploit over-pursuit.
+- **Defensive Approach**: Increase blitz frequency and force quick throws. Emphasize takeaway opportunities with trap coverage, zone rotation, and aggressive pursuit angles.
+- **Situational Goal**: Generate explosive plays and capitalize on halftime adjustments. This is the quarter to swing momentum—either by scoring quickly or forcing a turnover.
+
+---
+
+#### 4th Quarter: Controlled Aggression
+
+- **Offensive Approach**: If leading or within one score, lean into power run concepts and clock control. Use misdirection, counters, and play-action to exploit fatigue. If trailing, shift to tempo-based vertical attack with layered reads.
+- **Defensive Approach**: Shift to bend-but-don’t-break philosophy. Prioritize red zone stops and force field goals. Use timeout strategy and substitution control to manage tempo.
+- **Situational Goal**: Manage clock, protect the lead or stay within striking distance, and prepare for late-game execution. If tied or within three points, play for overtime with field position and possession control.
+
+This quarter-by-quarter blueprint is designed not just to compete—but to disrupt. It reflects a strategic layering of analytics, coaching tendencies, and situational football that gives Marshall a path to challenge the No. 1 team in the country.
+
 
 ## Monte Carlo Simulation
 
