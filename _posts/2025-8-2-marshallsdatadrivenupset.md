@@ -1,7 +1,7 @@
 ---
 ---
 title: When Data Meets Grit: A Data Driven AI Blueprint for Marshall to Upset No. 1 Georgia at Sanford Stadium
-excerpt:  When Data Meets Grit: A Data Driven AI Blueprint for Marshall to Upset No. 1 Georgia at Sanford Stadium
+excerpt: 
 cover: 
 cover_size: sm
 tags: MGA DSCIT ITEC7000
