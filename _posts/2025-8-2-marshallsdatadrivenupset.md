@@ -258,37 +258,87 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 |-----------|------------|
 | **Marshall** | 14.25      |
 | **Georgia**  | 20.46      |
-
-### Score Distribution
-
-![Score Distribution: Marshall vs. Georgia](https://us-prod.asyncgw.teams.microsoft.com/v1/objects/0-cus-d10-1ab27df3ddfeebbd277e627b1d2704ef/views/original/generated_image.png)
-
 ---
 
-### 🔍 Key Takeaways
+### Key Takeaways
 
 - **Turnovers and explosive plays** are pivotal. Marshall’s wins often correlate with 2+ takeaways and 1+ explosive TDs.
 - **Red zone efficiency** is critical. Rod Smith’s offense must convert limited opportunities into touchdowns.
 - **Defensive disruption** from Gibson’s 3-3-5 can rattle Georgia’s rhythm, especially early.
 
-## 7. Retrospective Validation: Marshall vs. Notre Dame 2022
+## 6. Coaching-Adjusted Monte Carlo Simulations — Strategy Meets Reality
 
-### 7.1 Why the 2022 Notre Dame Game?
+To ensure the AI-driven blueprint holds up under real-world conditions, we re-ran the Monte Carlo simulations with coaching tendencies integrated:
 
-In October 2022, Marshall toppled a top-15 Notre Dame on the road, 26–21. Both Notre Dame and Georgia run a base 4-2-5 nickel, mix zone-blitz shells, and leverage athletic sub-package defenders. The –3 point “crowd noise” penalty and Marshall’s downhill ground attack mirrored the hostile-stadium, run-leaning plan for Georgia.
+- **Marcus Freeman (Notre Dame)**: Aggressive fourth-down decisions and analytics-driven play-calling increase scoring efficiency and reduce variance.
+- **Ryan Day (Ohio State)**: High red zone conversion and vertical tempo remain, but reduced scoring variance reflects officiating disparities and situational constraints.
 
-### 7.2 Detailed Simulation Metrics
+---
 
-| Metric               | ND Actual | Simulation Mean | Std. Dev. |
-|----------------------|-----------|------------------|-----------|
-| Yards per Play       | 5.2       | 5.5              | 0.8       |
-| Third-Down Conv. Rate| 31%       | 33%              | 4%        |
-| Red-Zone TD Rate     | 60%       | 58%              | 6%        |
-| Time of Possession   | 28:45     | 29:10            | 2:30      |
-| Scoring Drives       | 8 / 3
+### Why These Games?
+
+The selection of **Notre Dame (2022)** and **Ohio State (hypothetical)** was intentional and strategic:
+
+- **Notre Dame** represents a historical benchmark—Marshall’s 2022 upset in South Bend is the foundation for retrospective validation of the blueprint.
+- **Ohio State**, ranked No. 1 entering the 2025 season, serves as the ultimate stress test. Simulating this matchup allows us to evaluate whether the blueprint can scale against elite talent, coaching, and tempo.
+
+Together, these games offer a spectrum of challenge—from proven success to aspirational disruption.
+
+---
+
+### Marshall vs Notre Dame (Adjusted for Coaching Tendencies)
+
+| Metric | Marshall | Notre Dame |
+|--------|----------|-------------|
+| **Median Score** | 28.1 | 14.1 |
+| **Standard Deviation** | 5.95 | 4.24 |
+| **10th Percentile** | 20.3 | 8.7 |
+| **25th Percentile** | 24.0 | 11.3 |
+| **75th Percentile** | 32.1 | 17.0 |
+| **90th Percentile** | 35.6 | 19.5 |
+
+**Win Margin Distribution:**
+- **Median Margin:** +13.96
+- **Standard Deviation:** 7.35
+- **75th Percentile:** +18.82
+- **90th Percentile:** +23.46
+
+**Win Probability:** **96.91%**
+
+**Insight:** Even with Freeman’s analytics-enhanced offense, Marshall’s blueprint dominates. The simulation confirms that the strategy is resilient against modern coaching tactics.
+
+---
+
+### Marshall vs Ohio State (Adjusted for Coaching Tendencies)
+
+| Metric | Marshall | Ohio State |
+|--------|----------|-------------|
+| **Median Score** | 28.1 | 33.9 |
+| **Standard Deviation** | 5.91 | 6.55 |
+| **10th Percentile** | 20.5 | 25.5 |
+| **25th Percentile** | 24.0 | 29.5 |
+| **75th Percentile** | 32.0 | 38.3 |
+| **90th Percentile** | 35.6 | 42.4 |
+
+**Win Margin Distribution:**
+- **Median Margin:** –5.78
+- **Standard Deviation:** 8.79
+- **75th Percentile:** +0.11
+- **90th Percentile:** +5.52
+
+**Win Probability:** **25.42%**  
+**(Original Win Probability: 17.94%)**
+
+**Insight:** Against Ryan Day’s explosive offense, Marshall’s blueprint still improves win probability by nearly 7.5 percentage points over baseline. The strategy creates a viable path to victory in over 1 in 4 simulations, even when accounting for elite coaching.
+
+---
+
+### Strategic Validation
+
+These coaching-adjusted simulations confirm that the blueprint isn’t just theoretically sound—it’s tactically resilient. By modeling real-world coaching behaviors, we validate that Marshall’s AI-driven strategy can adapt and compete, even against the most analytically advanced programs.
 
 
-## 8. Conclusion: Engineering the Underdog Triumph
+## 7. Conclusion: Engineering the Underdog Triumph
 
 By fusing cutting-edge AI pipelines with gridiron strategy, underdog programs can level the playing field—turning limited resources and hostile crowds into opportunity. This deep-dive blueprint not only targets a Week 1 upset at Sanford Stadium but also validates itself against one of college football’s most storied surprises.
 
