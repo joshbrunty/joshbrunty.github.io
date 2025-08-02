@@ -184,11 +184,11 @@ Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Mar
 
 > 📌 *Goal: Build a living model that evolves with the team, adapting to real-time coaching decisions and opponent adjustments.*
 
-## 3.6 Matchup Edge: Where Scheme Meets Opportunity
+### 3.6 Matchup Edge: Where Scheme Meets Opportunity
 
 By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread offense and Tony Gibson’s aggressive 3-3-5 defense—complemented by Shannon Morrison’s situational disguise—the simulation identifies several key matchup advantages against Georgia’s 2024 coaching staff led by Kirby Smart, Glenn Schumann, and Mike Bobo.
 
-### Offensive Edge: Tempo vs. Defensive Rotation
+#### Offensive Edge: Tempo vs. Defensive Rotation
 
 - Georgia’s 2024 defense under Glenn Schumann relied heavily on rotating safeties and hybrid linebackers in its 4-2-5 nickel base.
 - Rod Smith’s no-huddle clusters and motion-heavy RPOs force defenders to declare early and limit substitution windows.
@@ -196,7 +196,7 @@ By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread 
 
 > 📌 *Edge: Marshall’s tempo and motion stress Georgia’s defensive rotation and alignment discipline.*
 
-### Defensive Edge: Disguise vs. Predictability
+#### Defensive Edge: Disguise vs. Predictability
 
 - Georgia’s offense under Mike Bobo was statistically its weakest under Smart, with a predictable reliance on shotgun play-action and tight end seams.
 - Tony Gibson’s post-snap pattern matching and disguised blitzes are designed to confuse quarterbacks reading coverage pre-snap.
@@ -204,7 +204,7 @@ By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread 
 
 > 📌 *Edge: Marshall’s disguised coverage and blitz timing disrupt Georgia’s rhythm and force low-EPA decisions.*
 
-### Situational Edge: Red Zone & Third Down
+#### Situational Edge: Red Zone & Third Down
 
 - Georgia’s red-zone efficiency remained strong, but its third-down conversion rate dipped in 2024.
 - Marshall’s defensive model emphasizes red-zone containment and third-down disguise, using delayed blitzes and cloud coverage.
