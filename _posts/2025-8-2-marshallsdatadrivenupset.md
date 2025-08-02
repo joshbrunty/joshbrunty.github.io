@@ -29,13 +29,13 @@ This section outlines the four-stage AI pipeline that transforms raw football da
 
 ### 1.1 Data Acquisition
 
-Gather every piece of structured and unstructured data that could influence a game:
+Gather every piece of structured and unstructured data that could influence a game. In this case it's worthy to note that it's the first game of the season for both teams so rosters are fairly predictable as of the writing of this post:
 
 - **Rosters & Depth Charts**: Who’s starting, who’s injured, who’s transferring in or out.
 - **Play-by-Play Logs**: Every snap from previous seasons, including down, distance, formation, and result.
 - **Spring Practice Reports & Transfer Portal Metrics**: Early indicators of player development and scheme changes.
 
-> 📌 *Goal: Build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
+> 📌 *Goal: Scrape rosters and build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
 
 ### 1.2 Feature Engineering
 
@@ -55,59 +55,14 @@ Tag and transform the data into features that machine learning models can unders
 Use machine learning to forecast outcomes:
 
 - **Clustering**: Group similar formations and personnel packages using K-Means.
-- **Classification**: Predict next play calls using Gradient Boosting based on game context.
-- **Monte Carlo Simulation**: Run thousands of simulated drives to estimate scoring probability, time of possession, and field position.
-
-> 📌 *Goal: Forecast how different play-calling strategies will perform under various game conditions.*
-## 1. AI Analytics Pipeline — Turning Raw Data into Play-Calling Precision
-
-This section outlines the four-stage AI pipeline that transforms raw football data into actionable, quarter-by-quarter game plans. Think of it as a play-calling assistant that learns from past games, simulates future ones, and scripts decisions in real time.
-
-### 1.1 Data Acquisition
-
-Gather every piece of structured and unstructured data that could influence a game:
-
-- **Rosters & Depth Charts**: Who’s starting, who’s injured, who’s transferring in or out.
-- **Play-by-Play Logs**: Every snap from previous seasons, including down, distance, formation, and result.
-- **Spring Practice Reports & Transfer Portal Metrics**: Early indicators of player development and scheme changes.
-
-> 📌 *Goal: Build a comprehensive dataset that reflects both team tendencies and individual capabilities.*
-
-### 1.2 Feature Engineering
-
-Tag and transform the data into features that machine learning models can understand:
-
-- **Tagging**: Label each play with metadata like down, distance, quarter, formation, personnel grouping, and field position.
-- **Derived Metrics**:
-  - Run-pass ratios
-  - Yards per play
-  - Success rate
-  - Expected Points Added (EPA)
-
-> 📌 *Goal: Convert raw data into meaningful variables that capture the DNA of each team’s strategy.*
-
-### 1.3 Predictive Modeling & Simulation
-
-Use machine learning to forecast outcomes:
-
-- **Clustering**: Group similar formations and personnel packages using K-Means.
-- **Classification**: Predict next play calls using Gradient Boosting based on game context.
+- **Classification**: Predict next play calls using Gradient Boosting based on game context. It's worthy to note here that both Tony Gibson (Marshall) and Kirby Smart (Georgia) have nearly a decade of defensive coordinator tendencies that can be fed into this model. 
 - **Monte Carlo Simulation**: Run thousands of simulated drives to estimate scoring probability, time of possession, and field position.
 
 > 📌 *Goal: Forecast how different play-calling strategies will perform under various game conditions.*
 
-### 1.4 Decision Scripting
+## 2. Leveraging the 2025-2026 Rosters
 
-Translate AI insights into executable game plans:
-
-- **Scripted Game Plans**: Define quarter-by-quarter strategies using a custom YAML-based DSL.
-- **Auto-Generated Play Sheets**: Output Markdown or PDF call sheets tailored to specific situations.
-
-## 2. Leveraging the 2026 Rosters
-
-## 2. Leveraging the 2026 Rosters
-
-To build a matchup-aware game plan, I began by scraping and structuring the 2025–26 rosters for both Marshall and Georgia. This process involved multiple data sources and custom parsing logic:
+To build a matchup-aware game plan, I began by scraping and structuring the 2025–26 rosters for both Marshall and Georgia. Again, this is fairly predictive since this is the first game for both teams. However, this can be done from week-to-week to account for injuries, breakout players, and roster attrition. For the first game, this process (especially for Marshall) involved multiple data sources and custom parsing logic:
 
 ### 2.1 Data Sources
 
@@ -137,7 +92,7 @@ Each player was tagged with:
 
 This structured roster data fed directly into the feature engineering and simulation stages of the pipeline, allowing for matchup-specific play-calling and scripting.
 
-Marshall enters the season with a somewhat veteran offensive line (even through transfer portal), a downhill running back duo, and a mobile quarterback. The defense features experienced edge rushers and a ball-hawking secondary.
+Marshall enters the season with a somewhat veteran offensive line (even through transfer portal acquistions), a downhill running back duo, and a mobile quarterback. The defense features experienced edge rushers and a ball-hawking secondary.
 
 Georgia counters with a balanced offensive attack, athletic edge defenders, and a deep secondary rotation. Their incoming talent includes several high-profile recruits and transfers across the defensive front and skill positions.
 
@@ -146,69 +101,142 @@ Georgia counters with a balanced offensive attack, athletic edge defenders, and 
 - Power run game vs. fresh edge defenders  
 - Seam route potential against rotating safeties
 
+It doesn't take data analytics or AI here to determine that Marshall is at a massive disadvantage when it comes to the talent stack of Georgia (The Jimmies). This is not the point of the roster scrapting and comparison. The idea is to find the strengeths of the inferior team (Marshall), and use those strengths for data analytics/AI to build further gameplan from. We'll discuss this later on...
 
-## 3. Translating 2024 Tendencies to 2025 Context
+## 3. Translating Coaching Tendencies to 2025 Context
 
-- **Georgia Offense (2024):** 60% pass / 40% run, heavy shotgun, 4-2-5 nickel on 48% of snaps  
-- **Marshall Offense (2024):** 52% run / 48% pass; under new OC—projected 60% run / 40% pass with RPOs and quick screens  
-- **Matchup Edge:** TE seam routes vs. rotating safeties; inside-zone power vs. inexperienced DEs  
+Rather than relying on Marshall’s 2024 play-calling data—which reflected Charles Huff’s philosophy—I recalibrated the model to reflect the strategic DNA of Marshall’s new coaching staff and Georgia’s 2024 coordinators. This ensures the simulation engine mirrors how the team is likely to operate in 2025, not how it played last season.
+
+### 3.1 Offensive Blueprint: Rod Smith (Jacksonville State)
+
+Rod Smith’s offenses at Jacksonville State were built around a physical, tempo-driven spread system. His play-calling leaned heavily on the run, but with modern RPO and motion elements that stress defenses horizontally and vertically.
+
+**Key Traits Modeled:**
+- Run-pass ratio: ~60% run / 40% pass
+- Shotgun-heavy formations with stacked WRs and motion
+- Inside zone, power read, jet sweep RPOs, and vertical seams off play-action
+- Frequent no-huddle clusters and scripted drive openers
+
+These traits were extracted from JSU game logs and encoded into the simulation engine to reflect how Marshall’s offense will likely operate under Smith.
+
+### 3.2 Defensive Blueprint: Tony Gibson (NC State)
+
+Tony Gibson’s 3-3-5 stack defense at NC State is known for its aggressive blitzing and post-snap disguise. His units consistently ranked among the ACC’s best in third-down defense and red-zone efficiency.
+
+**Key Traits Modeled:**
+- Base 3-3-5 stack with hybrid safeties
+- High blitz frequency on 2nd-and-long and 3rd-and-medium
+- Quarters and cloud coverage with post-snap pattern matching
+- Pre-snap two-high looks that rotate into man or zone blitzes
+
+These defensive patterns were modeled to simulate how Marshall might counter Georgia’s offensive strengths, particularly in passing downs and red-zone situations.
+
+### 3.3 Defensive Co-Coordinator Layer: Shannon Morrison
+
+As co-defensive coordinator, Shannon Morrison adds nuance to Marshall’s defensive strategy. His past work emphasizes situational disguise, hybrid linebacker usage, and zone rotation—complementing Gibson’s aggressive philosophy.
+
+**Modeling Considerations:**
+- Situational sub-packages (e.g., dime with hybrid LB/S roles)
+- Delayed blitzes and zone rotation
+- Emphasis on third-down disguise and red-zone containment
+
+As Morrison’s role becomes clearer during fall camp and early-season games, the model will be updated to reflect his influence on coverage shells and blitz timing.
+
+### 3.4 Opponent Profile: Georgia’s 2024 Coaching Tendencies
+
+#### Kirby Smart – Strategic Philosophy
+
+Kirby Smart sets the tone for Georgia’s discipline-first, situationally elite football. His teams emphasize controlling the line of scrimmage, minimizing risk, and forcing opponents into predictable downs.
+
+- Emphasis on field position and red-zone efficiency
+- Conservative early-down play-calling
+- High coaching intensity and adaptability
+
+#### Glenn Schumann – Defensive Coordinator
+
+Schumann’s 2024 defense remained elite despite roster turnover:
+
+- 4-2-5 nickel base with hybrid linebackers and rotating safeties
+- Top 5 nationally in third-down defense (25.7%)
+- No. 2 nationally in red-zone scoring prevention (67.6%)
+- Frequent post-snap rotation and delayed blitzes
+
+> 📌 *Edge Modeling: Schumann’s fourth-quarter dominance and third-down disguise tactics are key variables in scripting Marshall’s tempo and red-zone sequences.*
+
+#### Mike Bobo – Offensive Coordinator
+
+Bobo’s 2024 offense saw a statistical dip despite returning talent:
+
+- Total offense: 405.4 yards/game (No. 51 nationally)
+- Rushing offense: 124.4 yards/game (No. 102 nationally)
+- Heavy reliance on shotgun and play-action
+- Preference for intermediate passing and tight end seams
+- Reduced explosive play rate compared to 2023
+
+> 📌 *Edge Modeling: Bobo’s predictable sequencing and reduced run efficiency create opportunities for Marshall’s disguised blitzes and tempo disruption.*
+
+### 3.5 Future Model Adaptation
+
+Once Rod Smith, Tony Gibson, and Shannon Morrison settle into their roles at Marshall and establish their 2025 play-calling identities, the model will be retrained using:
+
+- Live play-by-play data from Marshall’s first 3–4 games
+- Practice reports and depth chart shifts
+- In-game situational tendencies (e.g., 3rd-down blitz rates, red-zone play selection)
+- Wearable telemetry and fatigue metrics (if available)
+
+> 📌 *Goal: Build a living model that evolves with the team, adapting to real-time coaching decisions and opponent adjustments.*
+
+## 3.6 Matchup Edge: Where Scheme Meets Opportunity
+
+By modeling Marshall’s 2025 strategy around Rod Smith’s tempo-driven spread offense and Tony Gibson’s aggressive 3-3-5 defense—complemented by Shannon Morrison’s situational disguise—the simulation identifies several key matchup advantages against Georgia’s 2024 coaching staff led by Kirby Smart, Glenn Schumann, and Mike Bobo.
+
+### Offensive Edge: Tempo vs. Defensive Rotation
+
+- Georgia’s 2024 defense under Glenn Schumann relied heavily on rotating safeties and hybrid linebackers in its 4-2-5 nickel base.
+- Rod Smith’s no-huddle clusters and motion-heavy RPOs force defenders to declare early and limit substitution windows.
+- Inside zone and jet sweep RPOs target Georgia’s edge defenders before they can set leverage, especially in tempo sequences.
+
+> 📌 *Edge: Marshall’s tempo and motion stress Georgia’s defensive rotation and alignment discipline.*
+
+### Defensive Edge: Disguise vs. Predictability
+
+- Georgia’s offense under Mike Bobo was statistically its weakest under Smart, with a predictable reliance on shotgun play-action and tight end seams.
+- Tony Gibson’s post-snap pattern matching and disguised blitzes are designed to confuse quarterbacks reading coverage pre-snap.
+- Shannon Morrison’s influence adds hybrid linebacker/safety looks that can bait throws into disguised zones and rotate coverage shells post-snap.
+
+> 📌 *Edge: Marshall’s disguised coverage and blitz timing disrupt Georgia’s rhythm and force low-EPA decisions.*
+
+### Situational Edge: Red Zone & Third Down
+
+- Georgia’s red-zone efficiency remained strong, but its third-down conversion rate dipped in 2024.
+- Marshall’s defensive model emphasizes red-zone containment and third-down disguise, using delayed blitzes and cloud coverage.
+- Offensively, Rod Smith’s play-action seam and shovel-draw RPOs are tailored for red-zone spacing and misdirection—ideal for attacking Schumann’s late-down disguise packages.
+
+> 📌 *Edge: Marshall’s situational scripting counters Georgia’s strengths in high-leverage downs.*
+
+---
+
+By aligning Marshall’s emerging identity with the known tendencies of Georgia’s 2024 squad, the model identifies specific leverage points—tempo, disguise, and situational control—that can be exploited to engineer an upset.
+
 
 ## 4. Quarter-by-Quarter Game Plan
 
-| Qtr | Run % | Pass % | Offensive Focus                          | Defensive Focus                          |
-|-----|-------|--------|------------------------------------------|------------------------------------------|
-| 1   | 58    | 42     | Inside-zone, jet RPO, bubble screens     | 4-3 over + A-gap stunts; man-under TE spy |
-| 2   | 52    | 48     | Play-action RPOs; mesh/levels concepts   | Nickel-cloud vs. 3×WR; boundary blitz     |
-| 3   | 45    | 55     | No-huddle clusters; sprint-out deep shots| Dime packages; disguised quarter shells   |
-| 4   | 35    | 65     | Clock-burn ISOs; shovel-draw RPOs        | Two-deep prevent; delayed ILB blitz       |
+Now here's where it gets fun...
 
-### 4.1 Quarter 1: Seize Initiative
+This section outlines a high-level, quarter-by-quarter strategy designed to exploit the matchup edges identified in Section 3—tempo vs. rotation, disguise vs. predictability, and situational control. But this isn’t just theory.
 
-**Offense**
-- Inside-zone (I-formation)  
-- Jet-sweep RPO (Shotgun)  
-- Power-ISO (I-formation)  
-- Bubble-screen vs. press coverage  
+Behind the scenes, this game plan is powered by a custom-built AI model that leverages all the data collected in previous sections—from coaching tendencies and roster matchups to formation usage and drive efficiency.
 
-**Defense**
-- 4-3 over with DE loop stunts at A-gaps  
-- SAM in man-under on TE; RPO mesh spy  
+Using a combination of Python-based tools, the model can generate a **play-by-play breakdown** tailored to specific game scenarios. Here's how it works:
 
----
+- 🧮 **Monte Carlo simulations** estimate scoring probabilities across thousands of drive sequences.
+- 🧠 **Gradient Boosting classifiers** predict optimal play calls based on down, distance, score, and field position.
+- 🗂️ **YAML-based scripting language** defines formations, personnel groupings, and situational packages.
+- 📄 **Markdown and PDF generators** output coach-friendly play sheets and call sequences for each quarter.
 
-### 4.2 Quarter 2: Sustain Momentum
+> 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
 
-**Offense**
-- Two-level mesh/levels to stretch LBs  
-- Play-action seam shots vs. single-high safety  
 
-**Defense**
-- Nickel-cloud on 3×WR sets  
-- Boundary blitz on 3rd-and-medium  
-
----
-
-### 4.3 Quarter 3: Flip the Field
-
-**Offense**
-- No-huddle spurts (5-play clusters)  
-- Sprint-out play-action → backside seam  
-
-**Defense**
-- Dime sub-package vs. obvious pass downs  
-- Disguised quarter coverage → pattern-match post-snap  
-
----
-
-### 4.4 Quarter 4: Close Strong
-
-**Offense**
-- Downhill ISOs and QB-keepers to chew clock  
-- Shovel-draw RPO on 3rd-and-long  
-
-**Defense**
-- Two-deep prevent if leading; bait quick throws  
-- Delayed ILB blitz to disrupt cadence  
 
 ## 5. Situational Scripts & Packages
 
