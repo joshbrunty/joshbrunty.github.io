@@ -8,7 +8,7 @@ class: success error shadow
 article_header:
   type: cover
   image:
-    src: /images/validation/validate1.jpg 
+    src:  
     
 ---
 ***"Failing to prepare is preparing to fail"*** -Coach John Wooden
