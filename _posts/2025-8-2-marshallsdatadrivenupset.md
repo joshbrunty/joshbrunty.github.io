@@ -297,7 +297,7 @@ To quantify Marshall’s upset potential, I ran **10,000 simulated matchups** us
 | **Marshall**      | **14.25**   |
 | **Georgia**       | **20.46**   |
 
-![Image](images/MUGeorgia/score_sim_10000.jpg)
+![Image](/images/MUGeorgia/score_sim_10000.jpg)
 
 ### Key Takeaways
 
