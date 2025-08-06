@@ -268,9 +268,11 @@ This is merely an overview of the quarter-by-quarter strategy. However, it can b
 
 This quarter-by-quarter blueprint is designed not just to compete—but to disrupt. It reflects a strategic layering of analytics, coaching tendencies, and situational football that gives Marshall a path to challenge the No. 1 team in the country.
 
+![Image](/images/MUGeorgia/defensive_scheme_heatmap.jpg)
+
 > 📌 *Think of this section as the strategic blueprint. The full model can turn it into a detailed, executable script for coaches to follow on game day.*
 >
-> ![Image](/images/images/MUGeorgia/defensive_scheme_heatmap.jpg)
+> 
 
 ## Monte Carlo Simulation
 
