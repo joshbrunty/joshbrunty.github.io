@@ -1,6 +1,6 @@
 ---
 title: A Data-Driven & AI Blueprint For Marshall to Upset Georgia in Week 1 at Sanford Stadium 
-excerpt: Final Thoughts & Feedback for ITEC 7000
+excerpt: “It’s about the Jimmys and the Joes, not the X’s and the O’s” -Coach Darrell Royal
 cover:
 cover_size: sm
 tags: AI Marshall Football data analytics
