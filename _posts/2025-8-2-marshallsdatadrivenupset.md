@@ -1,5 +1,5 @@
 ---
-title: A Data-Driven & AI Blueprint For Marshall to Upset Georgia in Week 1 at Sanford Stadium 
+title: The Science Behind the Upset: Football Meets Data & AI
 excerpt: “It’s about the Jimmys and the Joes, not the X’s and the O’s” -Coach Darrell Royal
 cover:
 cover_size: sm
