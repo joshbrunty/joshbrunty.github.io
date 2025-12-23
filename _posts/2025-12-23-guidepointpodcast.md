@@ -6,7 +6,9 @@ tags: Cybersecurity, Education, Workforce Development, Podcast
 author: rms
 ---
 
-## Bridging Academia and Industry: Cybersecurity Training and Recruitment
+images/guidepoint2025
+
+![Image](/images/guidepoint2025/joshbrunty-guidepoint-2025.jpeg)
 
 I recently had the privilege of joining [Forcepoint's podcast](https://www.forcepoint.com/resources/podcast) for a **two-part conversation** on one of my favorite topics: preparing the next generation of cyber professionals.
 
