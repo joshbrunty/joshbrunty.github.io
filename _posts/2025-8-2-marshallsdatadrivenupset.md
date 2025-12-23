@@ -1,11 +1,12 @@
 ---
 title: The Science Behind the Upset: Football Meets Data & AI
-excerpt: The Forensic Lunch (5/8/2021) w/ Josh Brunty Jack Farley, Josh Brunty, Kevin Pagano, Tom Pace, & Jim Arnold
-cover: Exploring how analytics and AI can transform football strategy beyond the X's and O's.
+excerpt: Exploring how analytics and AI can transform football strategy beyond the X's and O's.
+cover: 
 cover_size: sm
 tags: football data analytics AI sports strategy
 author: rms 
 ---
+
 "It's about the Jimmys and the Joes, not the X's and the O's" -Coach Darrell Royal
 
 ## Introduction: The Underdog’s Edge
