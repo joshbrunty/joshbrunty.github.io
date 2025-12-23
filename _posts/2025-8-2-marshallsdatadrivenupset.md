@@ -1,6 +1,6 @@
 ---
 title: 'The Science Behind the Upset: Football Meets Data & AI'
-excerpt: Exploring how analytics and AI can transform football strategy beyond the X's and O's.
+excerpt: 'Exploring how analytics and AI can transform football strategy beyond the X's and O's'
 cover: 
 cover_size: sm
 tags: football data analytics AI sports strategy
