@@ -1,10 +1,9 @@
-
 ---
 title: "Bridging Academia and Industry: My Forcepoint Podcast on Cybersecurity Training & Recruitment"
 excerpt: "I joined Forcepoint's podcast for a two-part discussion on cybersecurity education, workforce development, and bridging the gap between academia and industry."
-cover: /assets/images/forcepoint-podcast-banner.jpg
-tags: [Cybersecurity, Education, Workforce Development, Podcast]
-author: jbrunty
+cover: 
+tags: Cybersecurity, Education, Workforce Development, Podcast
+author: rms
 ---
 
 ## Bridging Academia and Industry: Cybersecurity Training and Recruitment
