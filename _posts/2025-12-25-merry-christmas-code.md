@@ -5,11 +5,6 @@ cover:
 tags: DFIR, Security, Open-Source, GitHub, Tools, Scripts
 author: rms
 ---
-
-images/christmas2025
-
-
-
 Ho ho ho, fellow hackers and investigators! 🎅
 
 This Christmas, I'm playing Santa for the security and DFIR community—I've opened up a handful of my private repos for everyone to unwrap!
