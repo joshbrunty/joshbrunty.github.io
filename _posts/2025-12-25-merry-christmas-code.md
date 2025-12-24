@@ -8,7 +8,7 @@ author: rms
 
 images/christmas2025
 
-![Image](/images/christmas2025/code-gift.jpeg)
+![Image](/images/githubxmas2025/githubxmas2025.jpg)
 
 Ho ho ho, fellow hackers and investigators! 🎅
 
