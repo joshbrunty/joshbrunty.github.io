@@ -8,7 +8,7 @@ author: rms
 
 images/christmas2025
 
-![Image](/images/githubxmas2025/githubxmas2025.jpg)
+
 
 Ho ho ho, fellow hackers and investigators! 🎅
 
@@ -29,3 +29,5 @@ From tools to scripts, there's a little something for everyone under the tree. I
 Found something useful? Drop a ⭐! Found a bug or have an idea? Feedback and dev help are always welcome from both the security and DFIR communities—PRs, issues, or just a "hey this helped me" are all appreciated.
 
 Wishing you all a Merry Christmas and happy holidays! Now go enjoy some eggnog and take a break from the logs. 🎄🥛
+
+![Image](/images/githubxmas2025/githubxmas2025.jpg)
